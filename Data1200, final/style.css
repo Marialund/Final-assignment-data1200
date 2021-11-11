@@ -1,1 +1,10 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('Attachments/Helvetica.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
+}
 
