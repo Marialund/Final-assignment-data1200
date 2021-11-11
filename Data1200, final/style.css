@@ -15,3 +15,7 @@ h1, h2{
 p {
   font-family: 'helvetica', sans-serif;
 }
+
+header {
+  background-image: url('oslo\ met\ datatorget.jpeg')
+}
