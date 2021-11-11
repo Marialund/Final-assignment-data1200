@@ -30,12 +30,8 @@
     src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
 }
 
-h1{
+h1, h2{
    font-family: 'helvetica-bold', sans-serif; 
-}
-
-h2{
-  font-family: 'helvetica-bold', sans-serif;
 }
 
 p {
@@ -44,6 +40,19 @@ p {
 
 
 
+
+
+.flex-container1{
+  display: flex;
+  background-color: beige;
+}
+
+.flex-container1>p{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
 
 
 
