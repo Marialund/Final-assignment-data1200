@@ -10,17 +10,29 @@
     src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
 }
 
-h1, h2{
+h1{
    font-family: 'helvetica-bold', sans-serif; 
+}
+
+h2{
+  font-family: 'helvetica-bold', sans-serif;
 }
 
 p {
   font-family: 'helvetica', sans-serif;
 }
 
-div img {
-  width: 500px;
-  height: 300px;
-  position: center top;
+body{
+background-image: url('oslo met datatorget.jpeg');
+background-repeat: no-repeat;
+background-position: fixed;
+z-index: -1;
 }
+
+header h1{
+  margin: 0 auto;
+}
+
+
+
 
