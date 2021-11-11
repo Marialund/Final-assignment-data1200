@@ -1,1 +1,21 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('Attachments/Helvetica.ttf') format('truetype');
+  }
 
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
+}
+
+h1{
+   font-family: 'helvetica-bold', sans-serif; 
+}
+
+h2{
+  font-family: 'helvetica-bold', sans-serif;
+}
+
+p {
+  font-family: 'helvetica', sans-serif;
+}
