@@ -54,5 +54,18 @@ header h1{
 }
 
 
+.flex-container1{
+  display: flex;
+  background-color: beige;
+}
+
+.flex-container1>p{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+
 
 
