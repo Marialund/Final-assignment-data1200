@@ -42,17 +42,8 @@ p {
   font-family: 'helvetica', sans-serif;
 }
 
-body{
-background-image: url('oslo met datatorget.jpeg');
-background-repeat: no-repeat;
-background-position: fixed;
-}
 
-div h1{
-  text-align: center;
-  font-size: 4rem;
-  color: yellow;
-}
+
 
 
 
