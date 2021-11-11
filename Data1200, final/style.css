@@ -8,3 +8,10 @@
     src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
 }
 
+h1{
+   font-family: 'helvetica-bold', sans-serif; 
+}
+
+h2 {
+  font-family: 'helvetica', sans-serif;
+}
