@@ -12,6 +12,10 @@ h1{
    font-family: 'helvetica-bold', sans-serif; 
 }
 
-h2 {
+h2{
+  font-family: 'helvetica-bold', sans-serif;
+}
+
+p {
   font-family: 'helvetica', sans-serif;
 }
