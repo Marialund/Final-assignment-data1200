@@ -22,19 +22,23 @@
     font-family: 'helvetica', sans-serif;
   }
   
-body{
-    background-image: url('oslo met datatorget.jpeg');
-}
   
-  .bg-image {
-    background-image: url("oslo met datatorget.jpeg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+  img{
+      opacity: 0.5;
   }
+
   
   div h1{
     text-align: center;
     margin: 0 auto;
     font-size: 4rem;
     color: yellow;
+  }
+
+  div nav {
+      
+      background-position: center top;
+      background-color: white;
+      z-index: 2;
+
   }
