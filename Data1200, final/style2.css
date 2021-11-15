@@ -12,6 +12,8 @@
   
   h1{
      font-family: 'helvetica-bold', sans-serif; 
+     
+
   }
   
   h2{
@@ -22,23 +24,68 @@
     font-family: 'helvetica', sans-serif;
   }
   
+ header{
+   display: flex;
+   background-image: url('attachments/oslo\ met\ datatorget.jpeg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 70vh;
+   align-items: center;
+   justify-content: center;
+ }
+
+ 
+
+
+
+
+ header h1 {
+  display: flex;
+  font-size: 6rem;
+  color: yellow;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+ div {
+   background-color: darkblue;
+   border: 1px yellow;
   
-  img{
-      opacity: 0.5;
+ }
+
+ header p {
+   display: flex;
+   font-size: 2.5rem;
+   color: yellow;
+   text-align: center;
+   margin: 0 auto;
+ }
+ 
+
+
+
+
+
+  li, a{
+    font-family: 'helvetica-bold', sans-serif;
+    font-size: 16px;
+    color: black;
   }
 
-  
-  div h1{
-    text-align: center;
-    margin: 0 auto;
-    font-size: 4rem;
-    color: yellow;
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style-type: none;
   }
-
-  div nav {
-      
-      background-position: center top;
-      background-color: white;
-      z-index: 2;
-
+  
+  .nav-bar li {
+    display: inline-block;
+    padding: 0 px 20px;
+  }
+  
+  .nav-bar li a:hover {
+    color: darkgray;
   }
