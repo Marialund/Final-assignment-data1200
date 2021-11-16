@@ -56,52 +56,13 @@
   
   .nav-bar li {
     display: inline-block;
-    padding: 0 px 20px;
+    padding: 0 px 10px;
   }
   
   .nav-bar li a:hover {
     color: darkgray;
   }
-  /* Introduksjonstekst*/
-  .flex-container1{
-    display: flex;
-  }
-  
-  .info{
-    background-color: lightgreen;
-    margin: 10px;
-    padding: 20px;
-    font-size: 15px;
-  }
-  
-  /* Hoved-flex*/
-  .flex-container{
-    background-color: lightgray;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 15px;
-    flex: 100%;
-  }
-  
-  /* Innhold*/
-  .text-1, .text-2, .text-3 {
-    background: lightpink;
-    margin: 10px;
-    padding: 20px;
-    font-size: 15px;
-    text-align: left;
-  }
-  
-  /* Bunntekst*/
-  .footer{
-    background-color: lightblue;
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-    flex: 100%;
-  }
+ 
   
   /* Mobilversjon*/
   @media all and (min-width: 600px) {
