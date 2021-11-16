@@ -133,3 +133,20 @@
     display: flex;
     text-align: center;
   }
+ article{
+    background-color: whitesmoke;
+    margin: auto;
+    display: block;
+    width: 90%;
+ }
+ img.stressa{
+    margin: auto 0;
+    height: 70%;
+    width: 70%;
+ }
+
+ img.lykkelig{
+    margin: auto 0;
+    height: 70%;
+    width: 70%;
+ }
