@@ -108,7 +108,7 @@ li, a{
   .text { flex: 1 0 0; }
 }
 
-@media all and (min-width: 600 px) {
+@media all and (min-width: 600px) {
   .flex-container { flex: 3 0px; }
   .info { order: 0; } 
   .text-1  { order: 1; }
