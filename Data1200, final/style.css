@@ -113,7 +113,7 @@ header {
 }
 
 /* Mobilversjon*/
-@media all and (min-width: 600 px) {
+@media all and (min-width: 600px) {
   .text { flex: 1 0 0; }
 }
 
