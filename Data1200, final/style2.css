@@ -21,43 +21,6 @@
   p {
     font-family: 'helvetica', sans-serif;
   }
-<<<<<<< Updated upstream
-  
-
-header h1 {
-    display: flex;
-    font-size: 6rem;
-    color: yellow;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-div {
-     background-color: darkblue;
-     border: 1px yellow;
-  }
-  
-  header p {
-     display: flex;
-     font-size: 2.5rem;
-     color: yellow;
-     text-align: center;
-     margin: 0 auto;
-  }
-
- header{
-   display: flex;
-   background-image: url('attachments/oslo\ met\ datatorget.jpeg');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   height: 70vh;
-   align-items: center;
-   justify-content: center;
-   opacity: 0.5;
- }
-
-=======
 
   body {
     background: white;
@@ -106,7 +69,6 @@ div{
 
 
 
->>>>>>> Stashed changes
 
   li, a{
     font-family: 'helvetica-bold', sans-serif;
