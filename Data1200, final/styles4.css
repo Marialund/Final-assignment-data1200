@@ -80,12 +80,13 @@
   
   header.Reflection {
     display: flex;
-    background-image: url('attachments/oslo\ met\ datatorget.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: yellow;
     height: 30vh;
     align-items: center;
     justify-content: center;
+    margin: -1%;
+    margin-top: -1%;
+    background-size: cover;
   }
 
   div.title {
