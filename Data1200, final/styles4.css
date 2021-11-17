@@ -47,11 +47,24 @@
   
   /* Navigation bar*/
   .nav-bar {
+    background-color: yellow;
+    overflow: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5%;
-    list-style-type: none;
+    list-style-type: square;
+    margin: -1%;
+    margin-top: -1%;
+  }
+
+  .nav-bar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 1rem;
   }
   
   .nav-bar li {
@@ -66,7 +79,7 @@
   
   /* Mobilversjon*/
   @media all and (min-width: 600px) {
-    .text { flex: 1 0 0; }
+    article { flex: 1 0 0; }
   }
   
   @media all and (min-width: 600px) {
@@ -112,7 +125,6 @@
     margin-bottom: -5%;
     margin-top: -7%;
   }
-
 
   .stressa{
     margin: auto 0;
