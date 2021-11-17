@@ -55,7 +55,7 @@
     padding: 5%;
     list-style-type: square;
     margin: -1%;
-    margin-top: -1%;
+    margin-top: -5%;
   }
 
   .nav-bar a{
@@ -89,10 +89,10 @@
     .conclusion { order: 2; }
   }
   
-  header.Reflection {
+  .Reflection {
     display: flex;
     background-color: yellow;
-    height: 30vh;
+    height: 15vh;
     align-items: center;
     justify-content: center;
     margin: -1%;
@@ -100,7 +100,7 @@
     background-size: cover;
   }
 
-  div.title {
+  .title {
     color: black;
     background-color: yellow;
     display: flex;
