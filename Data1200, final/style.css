@@ -53,16 +53,21 @@ header {
 }
 
 /* Navigation bar*/
-.nav-bar {
+
+.nav-bar{
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  list-style-type: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-height: 5vh;
+}
+.nav-bar li {
+  list-style: none;
 }
 
-.nav-bar li {
-  display: inline-block;
-  padding: 0 px 20px;
+.nav-bar a{
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-bar li a:hover {
@@ -112,7 +117,7 @@ header {
   .text { flex: 1 0 0; }
 }
 
-@media all and (min-width: 813 px) {
+@media all and (min-width: 600px) {
   .flex-container { flex: 3 0px; }
   .info { order: 0; } 
   .text-1  { order: 1; }
@@ -120,3 +125,4 @@ header {
   .text-3 { order: 3;}
   .footer  { order: 4; }
 }
+
