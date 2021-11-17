@@ -94,19 +94,22 @@
     display: flex;
     text-align: center;
   }
- article{
-    background-color: whitesmoke;
-    margin: auto;
-    display: block;
-    width: 90%;
- }
-  img.stressa{
+  .flex-container{
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    flex: 100%;
+  }
+
+  .stressa{
     margin: auto 0;
     height: auto;
     width: 40%;
  }
 
-  img.lykkelig{
+  .lykkelig{
     margin: auto 0;
     height: 50%;
     width: 40%;
