@@ -47,16 +47,29 @@
   
   /* Navigation bar*/
   .nav-bar {
+    background-color: yellow;
+    overflow: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    list-style-type: none;
+    padding: 5%;
+    list-style-type: square;
+    margin: -1%;
+    margin-top: -5%;
+  }
+
+  .nav-bar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 1rem;
   }
   
   .nav-bar li {
     display: inline-block;
-    padding: 0 px 10px;
+    padding: 0px 1rem;
   }
   
   .nav-bar li a:hover {
@@ -66,22 +79,20 @@
   
   /* Mobilversjon*/
   @media all and (min-width: 600px) {
-    .text { flex: 1 0 0; }
+    article { flex: 1 0 0; }
   }
   
   @media all and (min-width: 600px) {
     .flex-container { flex: 3 0px; }
-    .info { order: 0; } 
-    .text-1  { order: 1; }
-    .text-2 { order: 2; }
-    .text-3 { order: 3;}
-    .footer  { order: 4; }
+    .introduction { order: 0; } 
+    .main { order: 1; }
+    .conclusion { order: 2; }
   }
   
-  header.Reflection {
+  .Reflection {
     display: flex;
     background-color: yellow;
-    height: 30vh;
+    height: 15vh;
     align-items: center;
     justify-content: center;
     margin: -1%;
@@ -89,21 +100,30 @@
     background-size: cover;
   }
 
-  div.title {
+  .title {
     color: black;
     background-color: yellow;
     display: flex;
     text-align: center;
   }
+
   .flex-container{
-    background-color: yellow;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 15px;
     flex: 100%;
-    margin: -1%;
+    margin: 5%;
     text-align: center;
+    background-color: yellow;
+  }
+
+  article{
+    background-image: url(attachments/oslo\ met\ datatorget.jpeg);
+    background-repeat: repeat;
+    margin: -1%;
+    margin-bottom: -5%;
+    margin-top: -7%;
   }
 
   .stressa{
