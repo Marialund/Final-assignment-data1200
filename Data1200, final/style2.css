@@ -95,6 +95,7 @@ p {
 }
 
 
+
   li, a{
     font-family: 'helvetica-bold', sans-serif;
     font-size: 16px;
@@ -102,11 +103,13 @@ p {
   }
 
   .nav-bar {
+    background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 3%;
     list-style-type: none;
+    margin: -1%;
   }
   
   .nav-bar li {
@@ -118,8 +121,6 @@ p {
     color: darkgray;
   }
 
-  @media all and (min-width: 600 px) {
-    .text { flex: 1 0 0; }
-  }
+  
   
 
