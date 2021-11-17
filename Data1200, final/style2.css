@@ -47,6 +47,10 @@
     left: 0px; 
     opacity: 0.4;
 }
+
+div{
+  background-color: black;
+}
     
 h1 {
   position: absolute;
@@ -54,20 +58,20 @@ h1 {
   color:yellow;
   font-size: 6rem;
   text-align: center;
-
 }
 
-h2 {
-  position: relative;
-  color: yellow;
+h2{
+  position: absolute;
+  color:yellow;
   font-size: 3rem;
-  text-align: center;
 }
 
-div{
-   background-color: black;
- }
-
+p {
+  position:absolute;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
 
 
   li, a{
