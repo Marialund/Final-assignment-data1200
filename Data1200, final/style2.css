@@ -22,9 +22,6 @@
     font-family: 'helvetica', sans-serif;
   }
 
-  body {
-    background: white;
-  }
  
  .head {
   position: relative; 
@@ -32,6 +29,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-left: -1%;
+  margin-right: -1%;
+  margin-bottom: -1%;
+  
 }
 
 .head::before {    
@@ -47,11 +49,14 @@
 }
     
 h1 {
-  position: relative;
+  position: absolute;
+  top: 10%;
   color:yellow;
   font-size: 6rem;
   text-align: center;
+
 }
+
 h2 {
   position: relative;
   color: yellow;
@@ -59,14 +64,9 @@ h2 {
   text-align: center;
 }
 
-
 div{
    background-color: black;
  }
-
-
-
-
 
 
 

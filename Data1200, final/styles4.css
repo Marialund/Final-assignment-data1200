@@ -50,13 +50,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5%;
     list-style-type: none;
   }
   
   .nav-bar li {
     display: inline-block;
-    padding: 0 px 10px;
+    padding: 0px 1rem;
   }
   
   .nav-bar li a:hover {
@@ -71,11 +71,9 @@
   
   @media all and (min-width: 600px) {
     .flex-container { flex: 3 0px; }
-    .info { order: 0; } 
-    .text-1  { order: 1; }
-    .text-2 { order: 2; }
-    .text-3 { order: 3;}
-    .footer  { order: 4; }
+    .introduction { order: 0; } 
+    .main { order: 1; }
+    .conclusion { order: 2; }
   }
   
   header.Reflection {
@@ -95,23 +93,31 @@
     display: flex;
     text-align: center;
   }
+
   .flex-container{
-    background-color: lightgray;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 15px;
     flex: 100%;
+    margin: 5%;
+    text-align: center;
+    background-color: yellow;
   }
+
+  article{
+    background-image: url(attachments/oslo\ met\ datatorget.jpeg);
+    background-repeat: repeat;
+    margin: -1%;
+    margin-bottom: -5%;
+    margin-top: -7%;
+  }
+
 
   .stressa{
     margin: auto 0;
-    height: auto;
-    width: 40%;
  }
 
   .lykkelig{
     margin: auto 0;
-    height: 50%;
-    width: 40%;
- }
+  }
