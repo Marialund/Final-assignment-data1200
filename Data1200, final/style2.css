@@ -76,6 +76,7 @@ h1 {
   color:yellow;
   font-size: 6rem;
   text-align: center;
+  padding-bottom: 1%;
 }
 
 h2{
@@ -83,6 +84,7 @@ h2{
   color:yellow;
   font-size: 3rem;
   top: 30%;
+  padding-bottom: 1%;
 }
 
 p {
