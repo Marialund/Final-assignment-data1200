@@ -100,14 +100,14 @@
     display: block;
     width: 90%;
  }
- img.stressa{
+  img.stressa{
     margin: auto 0;
-    height: 70%;
-    width: 70%;
+    height: auto;
+    width: 40%;
  }
 
- img.lykkelig{
+  img.lykkelig{
     margin: auto 0;
-    height: 70%;
-    width: 70%;
+    height: 50%;
+    width: 40%;
  }
