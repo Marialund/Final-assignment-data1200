@@ -102,6 +102,8 @@
     justify-content: space-around;
     padding: 15px;
     flex: 100%;
+    margin: -1%;
+    text-align: center;
   }
 
   .stressa{
