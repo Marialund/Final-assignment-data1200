@@ -96,7 +96,7 @@
     text-align: center;
   }
   .flex-container{
-    background-color: lightgray;
+    background-color: yellow;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -106,12 +106,8 @@
 
   .stressa{
     margin: auto 0;
-    height: auto;
-    width: 40%;
  }
 
   .lykkelig{
     margin: auto 0;
-    height: 50%;
-    width: 40%;
- }
+  }
