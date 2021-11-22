@@ -84,6 +84,13 @@
       flex: 100%;
     }
   }
+
+  @media (max-width: 800px) {
+    .stressa, .lykkelig {
+      max-width: 60%;
+      height: 60%;
+    }
+  }
   
   .Reflection {
     display: flex;
@@ -120,7 +127,10 @@
     display: flex;
     background-color: rosybrown;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    justify-content: flex-end;
   }
 
   .main{
@@ -145,9 +155,13 @@
   .stressa{
     margin: auto 0;
     display: flex;
+    width: 50%;
+    height: 50%;
  }
 
   .lykkelig{
     margin: auto 0;
     display: flex;
+    width: 50%;
+    height: 60%;
   }

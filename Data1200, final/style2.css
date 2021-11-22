@@ -23,10 +23,14 @@
   }
 
  
- .head {
+  
+
+
+ .bg {
   position: relative; 
   height: 100vh;
   display: flex;
+  
   align-items: center;
   justify-content: center;
 
@@ -35,7 +39,7 @@
   margin-bottom: -1%;
 }
 
-.head::before {    
+.bg::before {    
     content: "";
     background-image: url('attachments/oslo\ met\ datatorget.jpeg');
     background-size: cover;
@@ -45,15 +49,18 @@
     bottom: 0px;
     left: 0px; 
     opacity: 0.4;
+    
 }
 
 div{
   background-color: black;
 }
+
+
     
 h1 {
   position: absolute;
-  top: 10%;
+  top: 5%;
   color:yellow;
   font-size: 6rem;
   text-align: center;
@@ -65,7 +72,7 @@ h2{
   color:yellow;
   font-size: 3rem;
   top: 30%;
-  padding-bottom: 1%;
+  
 }
 
 p {
@@ -78,7 +85,7 @@ p {
 }
 
 
-
+/*NAVIGERINGS-BAR*/
   li, a{
     font-family: 'helvetica-bold', sans-serif;
     font-size: 16px;
@@ -105,5 +112,21 @@ p {
   }
 
   
-  
+  @media all and (max-width: 600px){
+    p {
+      width: 80%;
+      padding-top: 15vh;
+      align-self: center;
+    }
+
+    h2{
+      padding-top: 5vh;
+      padding-left: 10vw;
+      padding-right: 10vw;
+     
+    }
+
+  }
+
+
 
