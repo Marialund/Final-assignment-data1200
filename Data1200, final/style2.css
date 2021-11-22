@@ -48,7 +48,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px; 
-    opacity: 0.4;
+    opacity: 0.3;
     
 }
 
@@ -64,11 +64,12 @@ h1 {
   color:yellow;
   font-size: 6rem;
   text-align: center;
-  padding-bottom: 1%;
+ 
 }
 
 h2{
   position: absolute;
+  text-align: center;
   color:yellow;
   font-size: 3rem;
   top: 30%;
@@ -77,12 +78,15 @@ h2{
 
 p {
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: white;
   top: 40%;
-  width: 35%;
+  width: 50vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
+
 
 
 /*NAVIGERINGS-BAR*/
@@ -112,20 +116,28 @@ p {
   }
 
   
+
+
   @media all and (max-width: 600px){
     p {
       width: 80%;
       padding-top: 15vh;
-      align-self: center;
+      font-size: 1.3rem;
+      
     }
 
     h2{
-      padding-top: 5vh;
+      padding-top: 8vh;
       padding-left: 10vw;
       padding-right: 10vw;
-     
     }
 
+  }
+
+  @media all and (min-width:600px) and (max-width: 900px){
+    p {
+      width: 80%;
+    }
   }
 
 
