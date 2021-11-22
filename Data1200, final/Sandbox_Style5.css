@@ -116,6 +116,8 @@ header {
  }
 
  img {
+     position:absolute;
+     right: 50%;
      height: 200px;
      width: 200px;
  }
