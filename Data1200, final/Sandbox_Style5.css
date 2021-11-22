@@ -30,6 +30,8 @@ header {
   display: flex;
   padding: 20px;
   font-size: 25px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Navigation bar*/
@@ -82,7 +84,7 @@ header {
   padding: 15px;
   font-size: 15px;
   text-align: left;
-  flex: 25%;
+  flex: 100%;
 }
 
 /* Bunntekst*/
