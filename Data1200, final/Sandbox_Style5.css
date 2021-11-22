@@ -90,6 +90,10 @@ header {
   line-height: 25px;
 }
 
+.text-4 {
+align-content: center;
+}
+
 /* Bunntekst*/
 .footer{
   background-color: #fcfbd2;
