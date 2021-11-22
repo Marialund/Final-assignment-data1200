@@ -23,47 +23,59 @@ li, a{
 }
 
 /* Navigation bar*/
-.nav-bar{
-  background-color: #ffff00;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 3%;
-  list-style-type: none;
-  margin: -1%;
+#nav-bar{
+  background-color: rgb(50, 50, 50);
 }
 
-.nav-bar li {
-  list-style: none;
+#nav{
+  float: left;
+  margin-top: -15px;
+  margin-left: -38px;
+  z-index: 1;
 }
 
-.nav-bar a{
+#nav-bar li{
+  display: inline-block;
+  background-color: rgb(50, 50, 50);
+  padding: 20px 23px;
+  margin: -2px;
+  font-size: 20px;
+}
+
+#nav-bar li a{
+  color: white;
   text-decoration: none;
   font-size: 16px;
+}
+
+img{
+  float: left;
+  padding: 0;
+}
+
+#nav-bar li:hover{
+  background-color:#fcdd04;
   color: black;
-  padding: 10px 20px;
 }
 
-.nav-bar li a:hover {
-  color: darkgray;
+button{
+  display: none;
 }
 
-.hamburger-menu{
-  position: absolute;
-  flex-direction: column;
-  justify-content: space-between;
-  display: flex;
-  top: 14px;
-  right: 12px;
-  width: 30px;
-  height: 21px;
-}
-
-.hamburger-menu line{
-  height: 3px;
-  width: 100%;
-  border-radius: 10px;
-  background-color: white;
+@media(max-width: 860px){
+  #mainNavigation{
+      /*posisjonen pÃ¥ nav-bar skal holdes lik om bruker f.eks. scroller*/
+      position:fixed;
+      left: 50%;
+      background-color: rgb(50, 50, 50);
+      font-size: 10px;
+      padding-top: 40px;
+      margin-top: -30px;
+      display: none;
+  }
+  button{
+      display: block;
+  }
 }
 
 /* Header*/
@@ -107,7 +119,7 @@ header {
 
 /* Bunntekst*/
 .footer{
-  background-color: #ffff00;
+  background-color: #fcdd04;
   text-align: center;
   margin: 10px;
   padding: 20px;

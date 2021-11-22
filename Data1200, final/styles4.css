@@ -31,7 +31,7 @@
   
   /* Navigation bar*/
   .nav-bar {
-    background-color: yellow;
+    background-color:#fcdd04;
     overflow: auto;
     display: flex;
     justify-content: space-between;
@@ -135,7 +135,7 @@
     padding: 15px;
     flex: 100%;
     margin: 2%;
-    background-color: yellow;
+    background-color: #fcdd04;
     flex-wrap: wrap;
   }
 
@@ -186,7 +186,7 @@
   }
   
   footer {
-    background-color: yellow;
+    background-color: #fcdd04;
     color: black;
     width: 100%;
     min-height: 4rem;

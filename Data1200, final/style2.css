@@ -60,7 +60,7 @@ div{
 h1 {
   position: absolute;
   top: 5%;
-  color:yellow;
+  color:#fcdd04;
   font-size: 6rem;
   text-align: center;
   margin: 6%;
@@ -70,7 +70,7 @@ h1 {
 h2{
   position: absolute;
   
-  color:yellow;
+  color: #fcdd04;
   font-size: 3rem;
   top: 30%;
   
@@ -98,7 +98,7 @@ p {
   }
 
   .nav-bar {
-    background-color: #ffff00;
+    background-color: #fcdd04;
     display: flex;
     justify-content: space-between;
     align-items: center;
