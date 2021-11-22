@@ -24,13 +24,6 @@ li, a{
   color: #727272;
 }
 
-/* Header*/
-header {
-  display: flex;
-  padding: 20px;
-  font-size: 25px;
-}
-
 /* Navigation bar*/
 .nav-bar{
   display: flex;
@@ -52,6 +45,14 @@ header {
   color: black;
 }
 
+/* Header*/
+header {
+  display: flex;
+  padding: 10px;
+  font-size: 25px;
+  margin: auto;
+  justify-content: center;
+}
 
 /* Introduksjonstekst*/
 .article{
@@ -59,11 +60,10 @@ header {
 }
 
 .info{
-  border-radius: 20px;
-  background-color: #fcfbd2;
   margin: 10px;
   padding: 20px;
   font-size: 15px;
+  line-height: 25px;
 }
 
 /* Hoved-flex*/
@@ -75,32 +75,25 @@ header {
 
 /* Innhold*/
 .text-1, .text-2, .text-3 {
-  border-radius: 20px;
-  background: #fcfbd2;
+  background: #fffeeb;
   margin: 15px;
   padding: 15px;
   font-size: 15px;
   text-align: left;
   flex: 25%;
+  line-height: 25px;
 }
 
 /* Bunntekst*/
 .footer{
-  background-color: #fcfbd2;
+  background-color: #fffeeb;
   text-align: center;
   margin: 10px;
   padding: 20px;
   font-size: 15px;
 }
 
- /* Mobilversjon*/
- @media all and (min-width: 600px) {
-  article { flex: 1 0 0; }
-}
-
-@media all and (min-width: 600px) {
-  .flex-container { flex: 3 0px; }
-  .introduction { order: 0; } 
-  .main { order: 1; }
-  .conclusion { order: 2; }
-}
+ /* Mobil og ipad*/
+@media (max-width: 768px) {
+  .text-1, .text-2, .text-3 { flex: 100%;}
+  }
