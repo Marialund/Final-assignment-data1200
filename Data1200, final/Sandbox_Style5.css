@@ -110,3 +110,7 @@ header {
   .main { order: 1; }
   .conclusion { order: 2; }
 }
+
+.securityCamera{
+    margin: auto 0;
+ }
