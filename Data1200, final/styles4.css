@@ -86,11 +86,31 @@
   }
 
   @media (max-width: 800px) {
-    .stressa, .lykkelig {
-      max-width: 60%;
-      height: 60%;
+    img {
+      width: 200%;
+      height: auto;
     }
   }
+
+  @media (max-width: 1080px){
+    img{
+      width: auto;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 1080px) {
+    .main, .introduction {
+      flex: 100%;
+    }
+  }
+
+  @media (max-width: 1080px) {
+    .flex-container {
+      flex-direction: row;
+    } 
+  }
+
   
   .Reflection {
     display: flex;
@@ -131,6 +151,7 @@
     width: 50%;
     margin-right: auto;
     justify-content: flex-end;
+    line-height: 25px;
   }
 
   .main{
@@ -141,6 +162,7 @@
     text-align: center;
     justify-content:flex-end;
     margin-right: auto;
+    line-height: 25px;
   }
 
   .conclusion{
@@ -148,20 +170,26 @@
     background-color: pink;
     flex-direction: column;
     text-align: left;
+    line-height: 25px;
+    text-align: center;
   }
-
- 
 
   .stressa{
     margin: auto 0;
     display: flex;
-    width: 50%;
-    height: 50%;
+    align-items: center;
+    position: relative;
  }
 
   .lykkelig{
     margin: auto 0;
     display: flex;
-    width: 50%;
-    height: 60%;
+    align-items: center;
+    position: relative;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    
   }
