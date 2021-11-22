@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'helvetica';
     src: url('Attachments/Helvetica.ttf') format('truetype');
@@ -8,73 +9,98 @@
     src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
 }
 
-h1{
+/* Fonter*/
+h1, h2{
    font-family: 'helvetica-bold', sans-serif; 
 }
 
-h2{
-  font-family: 'helvetica-bold', sans-serif;
-}
-
-p {
+p, footer {
   font-family: 'helvetica', sans-serif;
 }
 
-
-header h1 {
-  display: flex;
-  font-size: 6rem;
-  color: yellow;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-div {
-   background-color: darkblue;
-   border: 1px yellow;
-}
-
-header p {
-   display: flex;
-   font-size: 2.5rem;
-   color: yellow;
-   text-align: center;
-   margin: 0 auto;
-}
-
-header{
- display: flex;
- background-image: url('attachments/oslo\ met\ datatorget.jpeg');
- background-repeat: no-repeat;
- background-attachment: fixed;
- height: 70vh;
- align-items: center;
- justify-content: center;
- opacity: 0.5;
-}
-
-
 li, a{
-  text-decoration: none;
   font-family: 'helvetica-bold', sans-serif;
   font-size: 16px;
-  color: black;
+  color: #727272;
 }
 
-.nav-bar {
+/* Header*/
+header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
-  list-style-type: none;
+  font-size: 25px;
 }
 
+/* Navigation bar*/
+.nav-bar{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-height: 5vh;
+}
 .nav-bar li {
-  display: inline-block;
-  padding: 0 px 20px;
+  list-style: none;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-bar li a:hover {
-  color: darkgray;
+  color: black;
+}
+
+
+/* Introduksjonstekst*/
+.article{
+  display: flex;
+}
+
+.info{
+  border-radius: 20px;
+  background-color: #fcfbd2;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+/* Hoved-flex*/
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* Innhold*/
+.text-1, .text-2, .text-3 {
+  border-radius: 20px;
+  background: #fcfbd2;
+  margin: 15px;
+  padding: 15px;
+  font-size: 15px;
+  text-align: left;
+  flex: 25%;
+}
+
+/* Bunntekst*/
+.footer{
+  background-color: #fcfbd2;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+ /* Mobilversjon*/
+ @media all and (min-width: 600px) {
+  article { flex: 1 0 0; }
+}
+
+@media all and (min-width: 600px) {
+  .flex-container { flex: 3 0px; }
+  .introduction { order: 0; } 
+  .main { order: 1; }
+  .conclusion { order: 2; }
 }
