@@ -24,24 +24,30 @@ li, a{
 
 /* Navigation bar*/
 #nav-bar{
-  float: left;
   margin-top: -15px;
   margin-left: -38px;
   z-index: 1;
-
 }
+
 #nav-bar li{
   display: inline-block;
   background-color: rgb(50, 50, 50);
-  color: white;
   padding: 20px 23px;
   margin: -2px;
   font-size: 20px;
 }
+
+#nav-bar li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 img{
   float: left;
   padding: 0;
 }
+
 #nav-bar li:hover{
   background-color: rgb(255, 217, 0);
   color: black;
