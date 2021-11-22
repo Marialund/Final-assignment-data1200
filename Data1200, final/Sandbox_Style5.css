@@ -12,6 +12,7 @@
 /* Fonter*/
 h1, h2{
    font-family: 'helvetica-bold', sans-serif; 
+   text-align: center;
 }
 
 p, footer {
