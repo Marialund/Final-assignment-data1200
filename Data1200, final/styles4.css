@@ -45,7 +45,7 @@
   .nav-bar a{
     float: left;
     display: block;
-    color: darkgray;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding: 0px 1rem;
@@ -135,13 +135,13 @@
     padding: 15px;
     flex: 100%;
     margin: 2%;
-    background-color: white;
+    background-color: yellow;
     flex-wrap: wrap;
   }
 
   .introduction{
     display: flex;
-    background-color: rosybrown;
+    background-color: white;
     flex-direction: column;
     text-align: center;
     width: 50%;
@@ -152,7 +152,7 @@
 
   .main{
     display: flex;
-    background-color: plum;
+    background-color: white;
     flex-direction: column;
     width: 50%;
     text-align: center;
@@ -163,7 +163,7 @@
 
   .conclusion{
     display: flex;
-    background-color: pink;
+    background-color: white;
     flex-direction: column;
     text-align: left;
     line-height: 25px;
