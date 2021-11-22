@@ -21,7 +21,7 @@ p, footer {
 li, a{
   font-family: 'helvetica-bold', sans-serif;
   font-size: 16px;
-  color: black;
+  color: #727272;
 }
 
 /* Header*/
@@ -49,8 +49,9 @@ header {
 }
 
 .nav-bar li a:hover {
-  color: darkgray;
+  color: black;
 }
+
 
 /* Introduksjonstekst*/
 .article{
@@ -58,7 +59,8 @@ header {
 }
 
 .info{
-  background-color: lemonchiffon;
+  border-radius: 20px;
+  background-color: #fcfbd2;
   margin: 10px;
   padding: 20px;
   font-size: 15px;
@@ -73,20 +75,32 @@ header {
 
 /* Innhold*/
 .text-1, .text-2, .text-3 {
-  background: white;
-  margin: 10px;
-  padding: 10px;
+  border-radius: 20px;
+  background: #fcfbd2;
+  margin: 15px;
+  padding: 15px;
   font-size: 15px;
   text-align: left;
-  flex: 30%;
+  flex: 25%;
 }
 
 /* Bunntekst*/
 .footer{
-  background-color: lemonchiffon;
+  background-color: #fcfbd2;
   text-align: center;
   margin: 10px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
+ /* Mobilversjon*/
+ @media all and (min-width: 600px) {
+  article { flex: 1 0 0; }
+}
+
+@media all and (min-width: 600px) {
+  .flex-container { flex: 3 0px; }
+  .introduction { order: 0; } 
+  .main { order: 1; }
+  .conclusion { order: 2; }
+}
