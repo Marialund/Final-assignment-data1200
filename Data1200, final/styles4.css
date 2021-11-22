@@ -31,7 +31,7 @@
   
   /* Navigation bar*/
   .nav-bar {
-    background-color: beige;
+    background-color: yellow;
     overflow: auto;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@
     padding: 5%;
     list-style-type: square;
     margin: -1%;
-    margin-top: -5%;
+    margin-top: -2%;
   }
 
   .nav-bar a{
@@ -57,7 +57,7 @@
   }
   
   .nav-bar li a:hover {
-    color: yellow;
+    color: black;
   }
  
   
@@ -86,20 +86,37 @@
   }
 
   @media (max-width: 800px) {
-    .stressa, .lykkelig {
-      max-width: 60%;
-      height: 60%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 960px) {
+    img{
+      width: auto;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .main, .introduction {
+      flex: 100%;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .flex-container {
+      flex-direction: row;
     }
   }
   
   .Reflection {
     display: flex;
-    background-color: #efefdf ;
     height: 15vh;
     align-items: center;
     justify-content: center;
     margin: -1%;
-    margin-top: -1%;
     background-size: cover;
     z-index: 2;
     padding-bottom: 1%;
@@ -107,7 +124,6 @@
 
   .title {
     color:black;
-    background-color: beige;
     display: flex;
     text-align: center;
   }
@@ -118,50 +134,68 @@
     justify-content: space-around;
     padding: 15px;
     flex: 100%;
-    margin: 5%;
-    background-color: #fcfbd2;
+    margin: 2%;
+    background-color: yellow;
     flex-wrap: wrap;
   }
 
   .introduction{
     display: flex;
-    background-color: rosybrown;
+    background-color: white;
     flex-direction: column;
     text-align: center;
     width: 50%;
     margin-right: auto;
     justify-content: flex-end;
+    line-height: 25px;
   }
 
   .main{
     display: flex;
-    background-color: plum;
+    background-color: white;
     flex-direction: column;
     width: 50%;
     text-align: center;
     justify-content:flex-end;
     margin-right: auto;
+    line-height: 25px;
   }
 
   .conclusion{
     display: flex;
-    background-color: pink;
+    background-color: white;
     flex-direction: column;
     text-align: left;
+    line-height: 25px;
+    text-align: center;
   }
-
- 
 
   .stressa{
     margin: auto 0;
     display: flex;
-    width: 50%;
-    height: 50%;
  }
 
   .lykkelig{
     margin: auto 0;
     display: flex;
-    width: 50%;
+  }
+
+  img {
     height: 60%;
+    width: 50%;
+  }
+  
+  footer {
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    min-height: 4rem;
+    margin: auto;
+  }
+  
+  footer p {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100%;
+    padding: 1rem;
   }

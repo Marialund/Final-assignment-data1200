@@ -90,13 +90,18 @@ header {
   line-height: 25px;
 }
 
+.text-4 {
+align-content: center;
+}
+
 /* Bunntekst*/
 .footer{
-  background-color: #fcfbd2;
-  text-align: center;
+  background-color: #13130d;
+  text-align: left;
   margin: 10px;
   padding: 20px;
   font-size: 15px;
+  z-index: 2;
 }
 
  /* Mobilversjon*/
@@ -110,3 +115,14 @@ header {
   .main { order: 1; }
   .conclusion { order: 2; }
 }
+
+.securityCamera{
+    margin: auto 0;
+ }
+
+ img {
+     position:absolute;
+     left: 20%;
+     height: 600px;
+     width: 800px;
+ }
