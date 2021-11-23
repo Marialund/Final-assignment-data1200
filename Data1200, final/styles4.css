@@ -31,7 +31,7 @@
   
   /* Navigation bar*/
   .nav-bar{
-    background-color: rgb(50, 50, 50);
+    background-color: #fcdd04;
     margin: -1%;
   }
   
@@ -44,14 +44,14 @@
   
   .nav-bar li{
     display: inline-block;
-    background-color: rgb(50, 50, 50);
+    background-color: #fcdd04;
     padding: 2% 3%;
     margin: -2px;
     font-size: 20px;
   }
   
   .nav-bar li a{
-    color: white;
+    color: rgb(50, 50, 50);
     text-decoration: none;
     font-size: 16px;
   }
@@ -62,8 +62,8 @@
   }
 
   .nav-bar li:hover{
-    background-color:#fcdd04;
-    color: black;
+    background-color: rgb(50, 50, 50);
+    color: white;
   }
   
   button{
@@ -217,14 +217,17 @@
   .lykkelig{
     margin: auto 0;
     display: flex;
-    margin: 2%;
+    padding: auto;
+    position: relative;
+    margin-left: 1%;
   }
 
   /* Bilde nr2*/
   .stressa{
     margin: auto 0;
     display: flex;
-    margin: 2%;
+    margin-top: 2%;
+    position: relative;
  }
   
   /* Footer */
@@ -235,4 +238,5 @@
     padding: 20px;
     font-size: 15px;
     margin: -1%;
+    line-height: 25px;
   }
