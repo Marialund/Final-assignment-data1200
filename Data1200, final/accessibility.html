@@ -64,5 +64,23 @@
 
   <footer class="footer">Footer</footer>
   
+  <script>
+    var toggleNavBtn = document.getElementById("toggle-nav");
+    var NavDiv = document.getElementById("mainNavigation");
+
+    function showNav(){
+        var whatClicked = this.id;
+
+        if(whatClicked = "toggle-nav"){
+            NavDiv.style.display = "block";
+        }
+        else if(document.addEventListener()=true){
+            NavDiv.style.display = "none";
+        }
+    }
+
+    toggleNavBtn.onclick = showNav;
+</script>
+
 </body>
 </html>

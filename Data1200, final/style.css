@@ -22,12 +22,12 @@ li, a{
   font-family: 'helvetica-bold', sans-serif;
 }
 
+body{
+  margin: 0%;
+}
 /* Navigation bar*/
 #nav-bar{
   background-color: rgb(50, 50, 50);
-}
-
-#nav{
   float: left;
   margin-top: -15px;
   margin-left: -38px;
