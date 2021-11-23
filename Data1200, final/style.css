@@ -23,11 +23,14 @@ li, a{
 }
 
 body{
-  margin: 0%;
+  margin: 0;
 }
 /* Navigation bar*/
 #nav-bar{
   background-color: rgb(50, 50, 50);
+}
+
+#nav{
   float: left;
   margin-top: -15px;
   margin-left: -38px;
@@ -60,22 +63,7 @@ img{
 
 button{
   display: none;
-}
 
-@media(max-width: 860px){
-  #mainNavigation{
-      /*posisjonen pÃ¥ nav-bar skal holdes lik om bruker f.eks. scroller*/
-      position:fixed;
-      left: 50%;
-      background-color: rgb(50, 50, 50);
-      font-size: 10px;
-      padding-top: 40px;
-      margin-top: -30px;
-      display: none;
-  }
-  button{
-      display: block;
-  }
 }
 
 /* Header*/
@@ -128,7 +116,22 @@ header {
 }
 
  /* Mobil og ipad*/
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .text-1, .text-2, .text-3 { flex: 100%;}
   }
 
+@media(max-width: 860px){
+  #nav-bar{
+    position:fixed;
+    left: 50%;
+    background-color: rgb(50, 50, 50);
+    font-size: 10px;
+    padding-top: 40px;
+    margin-top: -30px;
+    display: none;
+  }
+  button{
+    display: block;
+  }
+}
+  
