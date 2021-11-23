@@ -60,16 +60,13 @@ h1 {
   font-size: 6rem;
   text-align: center;
   margin: 6%;
- 
 }
 
 h2{
   position: absolute;
-  
   color: #fcdd04;
   font-size: 3rem;
   top: 30%;
-  
 }
 
 p {
@@ -112,7 +109,7 @@ p {
   }
 
   
-  /* Bunntekst*/
+/* Bunntekst*/
 .footer{
   background-color: #fcdd04;
   text-align: center;
