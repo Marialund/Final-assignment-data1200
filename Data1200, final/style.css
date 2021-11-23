@@ -26,6 +26,14 @@ body{
   padding: 0;
 }
 
+/* Header */
+.header{
+  background-color: #fcdd04;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
 /* Navigation bar*/
 .topnav{
   background-color:rgb(50, 50, 50);
