@@ -61,14 +61,6 @@ header {
   display: flex;
 }
 
-.info{
-  border-radius: 20px;
-  background-color: #fcfbd2;
-  margin: 10px;
-  padding: 20px;
-  font-size: 15px;
-}
-
 /* Hoved-flex*/
 .flex-container{
   display: flex;
@@ -79,8 +71,7 @@ header {
 }
 
 /* Innhold*/
-.text-1, .text-2, .text-3 {
-  border-radius: 20px;
+.text-1, .text-2, .text-3, .text-4 {
   background: #fcfbd2;
   margin: 15px;
   padding: 15px;
@@ -90,18 +81,18 @@ header {
   line-height: 25px;
 }
 
-.text-4 {
+.img-1 {
 align-content: center;
 }
 
 /* Bunntekst*/
 .footer{
-  background-color: #13130d;
-  text-align: left;
-  margin: 10px;
+  background-color: #f1f117;
+  text-align: center;
   padding: 20px;
+  margin: 25px;
+  margin: -1%;
   font-size: 15px;
-  z-index: 2;
 }
 
  /* Mobilversjon*/
@@ -121,8 +112,8 @@ align-content: center;
  }
 
  img {
-     position:absolute;
-     left: 20%;
-     height: 100px;
-     width: 100px;
+     position:relative;
+     top: 1%;
+     height: 600px;
+     width: 600px;
  }
