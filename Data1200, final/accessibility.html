@@ -9,24 +9,30 @@
 </head>
 
 <body>  
-  <img id="logo"  src="Attachments/oslometlogo1.png" width="95.5px"/>
-  <button id="toggle-nav">Hamburger</button>
-    
-  <div id="nav-bar">
-    <nav>
-      <ul>
-        <li><a href="index.html"> Home </a></li>
-        <li><a href="accessibility.html"> Accessibility </a></li>
-        <li><a href="Topical_information.html"> Topical Information </a></li>
-        <li><a href="Reflection.html"> Reflection </a></li>
-        <li><a href="Fun.html"> Fun </a></li>
-      </ul>
-    </nav>
-  </div>
+  <header id="topbar">
+    <img id="logo" src="Attachments/oslometlogo1.png" width="95.5px"/>
 
-  <header>
-    <h2>Accessibility</h2>
+    <div id="nav-bar">
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="accessibility.html"> Accessibility </a></li>
+          <li><a href="Topical_information.html"> Topical Information </a></li>
+          <li><a href="Reflection.html"> Reflection </a></li>
+          <li><a href="Fun.html"> Fun </a></li>
+        </ul>
+  
+        <div id="menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+    </div>
+    
   </header>
+
+  <div class="title">
+    <h2>Accessibility</h2>
+  </div>
   
   <article class="info">
     <p>On this page you can read about the process of coding a site with a universal design, optimized for most groups of people. Before starting any coding, we had to plan out the pages. All members of the group made some sketches for the different sites, and we had discussions about fonts and sizing. Scroll further down to read about how we made the sites responsive, universal, and how we checked and validated. 
@@ -64,22 +70,23 @@
 
   <footer class="footer">Footer</footer>
   
-  <script>
-    var toggleNavBtn = document.getElementById("toggle-nav");
-    var NavDiv = document.getElementById("mainNavigation");
+<script>
+  const menu = document.querySelector(".menu");
+  const navBar = document.querySelector(".nav-bar");
+  const navLink = document.querySelectorAll(".nav-bar li a");
 
-    function showNav(){
-        var whatClicked = this.id;
+  menu.addEventListener("click", mobileMenu);
+  navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-        if(whatClicked = "toggle-nav"){
-            NavDiv.style.display = "block";
-        }
-        else if(document.addEventListener()=true){
-            NavDiv.style.display = "none";
-        }
-    }
+  function mobileMenu() {
+    menu.classList.toggle("active");
+    navBar.classList.toggle("active");
+  }
 
-    toggleNavBtn.onclick = showNav;
+  function closeMenu() {
+    menu.classList.remove("active");
+    navBar.classList.remove("active");
+  }
 </script>
 
 </body>
