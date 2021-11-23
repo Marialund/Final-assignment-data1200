@@ -123,6 +123,6 @@ align-content: center;
  img {
      position:absolute;
      left: 20%;
-     height: 600px;
-     width: 800px;
+     height: 100px;
+     width: 100px;
  }
