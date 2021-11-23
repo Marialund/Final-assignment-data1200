@@ -61,14 +61,6 @@ header {
   display: flex;
 }
 
-.info{
-  border-radius: 20px;
-  background-color: #fcfbd2;
-  margin: 10px;
-  padding: 20px;
-  font-size: 15px;
-}
-
 /* Hoved-flex*/
 .flex-container{
   display: flex;
@@ -79,8 +71,7 @@ header {
 }
 
 /* Innhold*/
-.text-1, .text-2, .text-3, .text-5 {
-  border-radius: 20px;
+.text-1, .text-2, .text-3, .text-4 {
   background: #fcfbd2;
   margin: 15px;
   padding: 15px;
@@ -96,9 +87,9 @@ align-content: center;
 
 /* Bunntekst*/
 .footer{
-  background-color: #13130d;
+  background-color: #f1f117;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   margin: -1%;
   font-size: 15px;
 }
