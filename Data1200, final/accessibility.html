@@ -6,26 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessibility</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/Data1200, final/navscript.js"></script>
 </head>
 
 <body>  
   <header>
-    <img id="logo" src="Attachments/oslometlogo1.png" width="95.5px"/>
-
-    <div id="nav-bar">
-        <ul>
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="accessibility.html"> Accessibility </a></li>
-          <li><a href="Topical_information.html"> Topical Information </a></li>
-          <li><a href="Reflection.html"> Reflection </a></li>
-          <li><a href="Fun.html"> Fun </a></li>
-        </ul>
-  
-        <div id="menu">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </div>
+    <img id="logo" src="Attachments/oslometlogo1.png"/>
+    
+    <div class="topnav" id="Nav-bar">
+      <a href="index.html">Home</a>
+      <a href="accessibility.html">Accessibility</a>
+      <a href="Topical_information.html">Topical information</a>
+      <a href="Reflection.html">Reflection</a>
+      <a href="Fun.html">Fun</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
     
   </header>
@@ -68,26 +64,17 @@
 
   </div>  
 
-  <footer class="footer">Footer</footer>
-  
-<script>
-  const menu = document.querySelector(".menu");
-  const navBar = document.querySelector(".nav-bar");
-  const navLink = document.querySelectorAll(".nav-bar li a");
-
-  menu.addEventListener("click", mobileMenu);
-  navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-  function mobileMenu() {
-    menu.classList.toggle("active");
-    navBar.classList.toggle("active");
-  }
-
-  function closeMenu() {
-    menu.classList.remove("active");
-    navBar.classList.remove("active");
-  }
-</script>
+  <footer class="footer">
+    <br>
+        Oslo Metropolitan University - Storbyuniversitetet
+    <br>
+        Postboks 4, St. Olavs plass
+    <br>
+        0130 Oslo
+    <br>
+        Tlf.: 67 23 50 00
+    <br>
+  </footer>
 
 </body>
 </html>
