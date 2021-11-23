@@ -97,9 +97,9 @@ align-content: center;
 /* Bunntekst*/
 .footer{
   background-color: #13130d;
-  text-align: left;
-  margin: 10px;
-  padding: 200px;
+  text-align: center;
+  margin: 3px;
+  padding: 100px;
   font-size: 15px;
 }
 
