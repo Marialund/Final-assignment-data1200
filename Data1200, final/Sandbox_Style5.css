@@ -97,7 +97,7 @@ align-content: center;
 
  /* Mobilversjon*/
  @media all and (min-width: 600px) {
-  article { flex: 1 0 0; }
+  img { flex: 1 0 0; }
 }
 
 @media all and (min-width: 600px) {
