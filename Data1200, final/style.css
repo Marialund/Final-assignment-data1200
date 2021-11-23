@@ -27,9 +27,11 @@ body{
 }
 
 /* Header */
-
-.logo{
-  width: 95.5px
+.header{
+  background-color: #fcdd04;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
 }
 
 /* Navigation bar*/
