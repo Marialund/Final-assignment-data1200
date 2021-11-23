@@ -28,6 +28,10 @@ body{
 
 /* Header */
 
+.logo{
+  width: 95.5px
+}
+
 /* Navigation bar*/
 .topnav{
   background-color:rgb(50, 50, 50);
