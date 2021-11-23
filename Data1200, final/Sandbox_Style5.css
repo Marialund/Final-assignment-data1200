@@ -73,7 +73,7 @@ header {
 /* Innhold*/
 .text-1, .text-2, .text-3, .text-4 {
   background: #fcfbd2;
-  margin: 40px;
+  margin: 10px;
   padding: 15px;
   font-size: 15px;
   text-align: left;
@@ -90,14 +90,14 @@ align-content: center;
   background-color: #f1f117;
   text-align: center;
   padding: 20px;
-  margin: 25px;
+  margin: 50px;
   margin: -1%;
   font-size: 15px;
 }
 
  /* Mobilversjon*/
  @media all and (min-width: 600px) {
-  article { flex: 1 0 0; }
+  img { flex: 1 0 0; }
 }
 
 @media all and (min-width: 600px) {
@@ -114,6 +114,6 @@ align-content: center;
  img {
      position:relative;
      top: 1%;
-     height: 600px;
-     width: 600px;
+     height: 550px;
+     width: 1180px;
  }
