@@ -47,6 +47,9 @@ body{
   color: black;
 }
 
+.topnav .icon{
+  display: block; 
+}
 
 @media screen and (max-width: 600px){
   .topnav a:not(:first-child) {display: none;}
@@ -72,6 +75,8 @@ body{
     text-align: left;
   }
 }
+
+
 
 /* Title*/
 .title {
@@ -130,3 +135,4 @@ body{
     flex: 100%;
   }
 }
+
