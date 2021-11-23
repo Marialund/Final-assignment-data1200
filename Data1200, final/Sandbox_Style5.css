@@ -90,7 +90,7 @@ header {
   line-height: 25px;
 }
 
-.text-4 {
+.img-1 {
 align-content: center;
 }
 
@@ -98,8 +98,8 @@ align-content: center;
 .footer{
   background-color: #13130d;
   text-align: center;
-  margin: 3px;
-  padding: 100px;
+  margin: 20px;
+  padding: 50px;
   font-size: 15px;
 }
 
