@@ -97,7 +97,7 @@ align-content: center;
 
  /* Mobilversjon*/
  @media all and (min-width: 600px) {
-  article { flex: 1 0 0; }
+  img { flex: 1 0 0; }
 }
 
 @media all and (min-width: 600px) {
@@ -114,6 +114,6 @@ align-content: center;
  img {
      position:relative;
      top: 1%;
-     height: 600px;
-     width: 600px;
+     height: 550px;
+     width: 1180px;
  }
