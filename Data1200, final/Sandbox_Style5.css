@@ -120,8 +120,8 @@ align-content: center;
  }
 
  img {
-     position:absolute;
-     left: 20%;
+     position:relative;
+     top: 20%;
      height: 100px;
      width: 100px;
  }
