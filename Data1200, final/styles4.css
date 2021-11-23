@@ -1,5 +1,5 @@
 
-/* For mobile phones: */
+/* Font for mobile phones: */
 [class*="col-"] {
     width: 100%;
   }
@@ -30,34 +30,45 @@
   }
   
   /* Navigation bar*/
-  .nav-bar {
-    background-color:#fcdd04;
-    overflow: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5%;
-    list-style-type: square;
+  .nav-bar{
+    background-color: rgb(50, 50, 50);
     margin: -1%;
-    margin-top: -2%;
+  }
+  
+  .nav{
+    float: left;
+    margin-top: -1%;
+    margin-left: -1%;
+    z-index: 1;
+  }
+  
+  .nav-bar li{
+    display: inline-block;
+    background-color: rgb(50, 50, 50);
+    padding: 2% 3%;
+    margin: -2px;
+    font-size: 20px;
+  }
+  
+  .nav-bar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  img{
+    float: left;
+    padding: 0;
   }
 
-  .nav-bar a{
-    float: left;
-    display: block;
+  .nav-bar li:hover{
+    background-color:#fcdd04;
     color: black;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px 1rem;
   }
   
-  .nav-bar li {
-    display: inline-block;
-    padding: 0px 1rem;
-  }
+  button{
+    display: none;
   
-  .nav-bar li a:hover {
-    color: black;
   }
  
   
@@ -89,13 +100,16 @@
     img {
       width: 100%;
       height: auto;
+      padding: 4%;
     }
   }
 
+  /* Tabletversjon*/
   @media (max-width: 960px) {
     img{
       width: auto;
       height: auto;
+      padding: 4%;
     }
   }
 
@@ -110,7 +124,23 @@
       flex-direction: row;
     }
   }
+
+  @media(max-width: 860px){
+    #nav-bar{
+      position:fixed;
+      left: 50%;
+      background-color: rgb(50, 50, 50);
+      font-size: 10px;
+      padding-top: 40px;
+      margin-top: -30px;
+      display: none;
+    }
+    button{
+      display: block;
+    }
+  }
   
+  /* Header*/
   .Reflection {
     display: flex;
     height: 15vh;
@@ -120,14 +150,18 @@
     background-size: cover;
     z-index: 2;
     padding-bottom: 1%;
+    margin-bottom: 1%;
   }
 
+  /* Headertitle*/
   .title {
     color:black;
     display: flex;
     text-align: center;
+    margin-top: 7%;
   }
 
+  /* Article */
   .flex-container{
     display: flex;
     flex-flow: row wrap;
@@ -135,10 +169,10 @@
     padding: 15px;
     flex: 100%;
     margin: 2%;
-    background-color: #fcdd04;
     flex-wrap: wrap;
   }
 
+  /* Første avsnitt*/
   .introduction{
     display: flex;
     background-color: white;
@@ -148,8 +182,11 @@
     margin-right: auto;
     justify-content: flex-end;
     line-height: 25px;
+    margin-bottom: 4%;
+    margin-top: 4%;
   }
 
+  /* Andre avsnitt*/
   .main{
     display: flex;
     background-color: white;
@@ -159,8 +196,11 @@
     justify-content:flex-end;
     margin-right: auto;
     line-height: 25px;
+    margin-top: 4%;
+    margin-left: 1%;
   }
 
+  /* Tredje avsnitt*/
   .conclusion{
     display: flex;
     background-color: white;
@@ -168,34 +208,31 @@
     text-align: left;
     line-height: 25px;
     text-align: center;
+    margin-top: 4%;
   }
 
-  .stressa{
-    margin: auto 0;
-    display: flex;
- }
-
+  /* Bilder */ 
+ 
+  /* Bilde nr1 */
   .lykkelig{
     margin: auto 0;
     display: flex;
+    margin: 2%;
   }
 
-  img {
-    height: 60%;
-    width: 50%;
-  }
+  /* Bilde nr2*/
+  .stressa{
+    margin: auto 0;
+    display: flex;
+    margin: 2%;
+ }
   
-  footer {
+  /* Footer */
+  .footer{
     background-color: #fcdd04;
-    color: black;
-    width: 100%;
-    min-height: 4rem;
-    margin: auto;
-  }
-  
-  footer p {
-    margin: 0 auto;
     text-align: center;
-    line-height: 100%;
-    padding: 1rem;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    margin: -1%;
   }
