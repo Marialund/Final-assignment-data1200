@@ -24,30 +24,22 @@ li, a{
 body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* Navigation bar*/
 #nav-bar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  overflow: hidden;
   background-color:rgb(50, 50, 50);
-  max-height: 62px;
-}
-
-#nav-bar li{
-  display: inline-block;
-  list-style: none;
-  padding: 20px 23px;
 }
 
 #nav-bar li a{
+  float: left;
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
-  margin-left: 5rem;
-  text-align: center;
 }
 
 #nav-bar li:hover{
@@ -55,9 +47,13 @@ body{
   color: black;
 }
 
-img{
-  float: left;
-  padding: 0;
+#nav-bar li.active{
+  background-color: #fcdd04;
+  color: white;
+}
+
+.nav-bar .img{
+  display: none; 
 }
 
 /* Hamburger bar*/
@@ -121,34 +117,25 @@ img{
   .text-1, .text-2, .text-3 {flex: 100%;}
   }
 
-@media (max-width: 860px){
-  #nav-bar{
-    display: none;
-  }
-
-  #menu{
-    position:fixed;
-    top: 5rem;
-    flex-direction: column;
-    background-color: rgb(50, 50, 50);
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-  }
-
-  #line{
+@media screen and (max-width: 600px){
+  .nav-bar li a:not(:first-child) {display: none;}
+  .navbar .icon {
+    float: right;
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color:black;
   }
 
-  #menu li a{
-    margin: 2.5rem 0;
+@media screen and (max-width: 600px) {
+  .nav-bar.responsive {position: relative;}
+  .nav-bar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  #menu{
+
+  .nav-bar.responsive a {
+    float: none;
     display: block;
-    cursor: pointer;
-  } 
+    text-align: left;
+  }
+}
 }
