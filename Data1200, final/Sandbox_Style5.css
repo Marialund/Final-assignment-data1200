@@ -79,7 +79,7 @@ header {
 }
 
 /* Innhold*/
-.text-1, .text-2, .text-3, .text-4 {
+.text-1, .text-2, .text-3, .text-5 {
   border-radius: 20px;
   background: #fcfbd2;
   margin: 15px;
@@ -90,7 +90,7 @@ header {
   line-height: 25px;
 }
 
-.text-5 {
+.text-4 {
 align-content: center;
 }
 
