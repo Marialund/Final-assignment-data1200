@@ -131,7 +131,7 @@ header {
 }
 
 /* Main Flexbox*/
-.flex-container{
+.main-flex {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -140,7 +140,7 @@ header {
 }
 
 /* Subject Content */
-.text-1, .text-2, .text-3, .text-4 {
+.paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
   background: #fcfbd2;
   margin: 10px;
   padding: 15px;
@@ -186,7 +186,7 @@ align-content: center;
 
  /* Mobil og ipad*/
 @media (max-width: 860px) {
-    .text-1, .text-2, .text-3, .text-4, .img-1 {
+    .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4, .img-1 {
       flex: 100%;
     }
   }
