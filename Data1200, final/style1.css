@@ -1,4 +1,3 @@
-
 /* Font for mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -14,7 +13,7 @@
       src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
   }
   
-  /* Fonter*/
+  /* Fonts*/
   h1, h2{
      font-family: 'helvetica-bold', sans-serif; 
   }
@@ -56,6 +55,7 @@
     display: none; 
   }
   
+  /* Animation for menu bar on mobile */
   .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -78,7 +78,10 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
  
-/*Oslometlogo*/
+
+  /* REFLECTION CSS-CODE */
+
+  /*Oslometlogo*/
   .oslomet{
     background-color: #fcdd04;
     padding: 30px;
@@ -96,8 +99,8 @@
     margin: -1%;
     background-size: cover;
     z-index: 2;
-    padding-bottom: 1%;
-    margin-bottom: 1%;
+    padding-top: 5%;
+    margin-top: 2%;
   }
 
   /* Headertitle*/
@@ -105,7 +108,8 @@
     color:black;
     display: flex;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
+    padding-top: 5%;
   }
 
   /* Article */
@@ -177,19 +181,62 @@
     position: relative;
  }
   
-  /* Footer */
-  .footer{
+  /* COMMON-FOOTER */
+.footer{
     background-color: #fcdd04;
     text-align: center;
-    margin: 10px;
     padding: 20px;
     font-size: 15px;
+    margin: 15px;
     margin: -1%;
-    line-height: 25px;
   }
 
-   /* Mobilversjon*/
-   @media all and (min-width: 600px) {
+  /* ACCESSIBILITY-CSS CODE
+
+  Title
+  */
+.title {
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  
+  /* Introduksjonstekst*/
+  .info{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  /* Hoved-flex*/
+  .flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  /* Innhold*/
+  .text-1, .text-2, .text-3 {
+    background: #fffeeb;
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+    flex: 25%;
+    line-height: 25px;
+    max-height: 0%;
+  }
+
+  /*
+  MEDIA QUERIES
+
+  Mobilversjon
+  */
+ @media all and (min-width: 600px) {
     article { flex: 1 0 0; }
   }
   
@@ -327,3 +374,11 @@
       align-items: center;
     }
   }
+
+   /* Mobil og ipad for Accessibility*/
+@media (max-width: 860px) {
+    .text-1, .text-2, .text-3 {
+      flex: 100%;
+    }
+  }
+  
