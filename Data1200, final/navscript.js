@@ -8,3 +8,7 @@ function myFunction(){
     }
 }
 
+function myFunction2(x) {
+    var x = document.getElementById("Nav-bar");
+    x.classList.toggle("change");
+}
