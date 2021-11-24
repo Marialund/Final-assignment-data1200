@@ -271,7 +271,12 @@
     justify-content: center;
     text-align: center;
   }
+  
+  /* Special Footer Friend (:( */
 
+  .specialFooter {
+    margin: 15px;
+  }
 
   /*
   MEDIA QUERIES
