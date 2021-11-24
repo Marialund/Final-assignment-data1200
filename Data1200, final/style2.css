@@ -87,36 +87,6 @@ p {
 
 
 /*NAVIGERINGS-BAR*/
-
-/*
-  li, a{
-    font-family: 'helvetica-bold', sans-serif;
-    font-size: 16px;
-    color: black;
-  }
-
-  .nav-bar {
-    background-color: #fcdd04;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3%;
-    list-style-type: none;
-    margin: -1%;
-  }
-  
-  .nav-bar li {
-    display: inline-block;
-    padding: 0 px 20px;
-  }
-  
-  .nav-bar li a:hover {
-    color: darkgray;
-  }
-*/
-
-
-  /* Navigation bar*/
   
   .topnav{
     background-color:rgb(50, 50, 50);
