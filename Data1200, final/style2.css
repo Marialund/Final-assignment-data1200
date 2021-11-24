@@ -87,7 +87,7 @@ p {
 
 
 /*NAVIGERINGS-BAR*/
-  
+  /*
   .topnav{
     background-color:rgb(50, 50, 50);
     overflow: auto;
@@ -161,8 +161,10 @@ p {
     }
   }
 
- 
+ */
  /*menubar*/
+
+ 
   @media screen and (max-width: 600px) {
   .topnav .icon {
     display: block;
@@ -185,6 +187,8 @@ p {
     display: block;
   }
 }
+
+
   
 /* Bunntekst*/
 .footer{
