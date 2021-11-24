@@ -128,3 +128,10 @@ align-content: center;
      width: 1180px;
      margin: 20px;
  }
+
+ /* Mobil og ipad*/
+@media (max-width: 860px) {
+    .text-1, .text-2, .text-3, .text-4, .img-1 {
+      flex: 100%;
+    }
+  }
