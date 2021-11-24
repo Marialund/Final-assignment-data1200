@@ -255,7 +255,7 @@
   }
 
   .img-1 {
-    position: absolute;
+    position: relative;
     right: 10%;
   align-content: center;
   }
