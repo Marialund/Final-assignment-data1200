@@ -1,5 +1,5 @@
 function myFunction2(x) {
-    this.classList.toggle("change");
+    x.classList.toggle("change");
 }
 
 
