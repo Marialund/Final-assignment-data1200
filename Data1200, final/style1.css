@@ -62,6 +62,7 @@
     background-color: gray;
     margin: 6px 0;
     transition: 0.4s;
+
   }
   
   .change .bar1 {
@@ -255,6 +256,8 @@
   }
 
   .img-1 {
+    position: relative;
+    top: 1%;
   align-content: center;
   }
 
