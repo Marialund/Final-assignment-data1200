@@ -254,6 +254,8 @@
   }
 
   .img-1 {
+    position: absolute;
+    right: 10%;
   align-content: center;
   }
 
