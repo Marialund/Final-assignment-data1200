@@ -213,6 +213,12 @@
   }
 
   @media screen and (max-width: 800px) {
+    .title{
+      margin-top: 5%;
+    }    
+  }
+
+  @media screen and (max-width: 800px) {
     .stressa {
       width: 100%;
       height: auto;
