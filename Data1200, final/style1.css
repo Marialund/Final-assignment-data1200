@@ -192,7 +192,6 @@
   }
 
   /* ACCESSIBILITY-CSS CODE
-
   Title
   */
 .title {
@@ -231,8 +230,32 @@
     max-height: 0%;
   }
 
-  /* TOPICAL_INFORMATION CSS-CODE */
+  /* 
+  TOPICAL_INFORMATION CSS-CODE
+  
+  Main Flexbox*/
+  .main-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto; 
+  }
 
+  /* Subject Content */
+  .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
+  background: #fcfbd2;
+  margin: 10px;
+  padding: 15px;
+  font-size: 15px;
+  text-align: left;
+  flex: 100%;
+  line-height: 25px;
+  }
+
+  .img-1 {
+  align-content: center;
+  }
 
 
   /*
