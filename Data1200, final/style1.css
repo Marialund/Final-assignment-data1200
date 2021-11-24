@@ -95,20 +95,19 @@
     height: 15vh;
     align-items: center;
     justify-content: center;
-    margin: -1%;
+    margin: 5%;
     background-size: cover;
     z-index: 2;
-    padding-top: 5%;
-    margin-top: 2%;
   }
 
   /* Headertitle*/
-  .title {
+  .tittel {
     color:black;
     display: flex;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 1%;
     padding-top: 5%;
+    font-size: 30px;
   }
 
   /* Article */
@@ -259,7 +258,7 @@
   .img-1 {
     position: relative;
     top: 1%;
-  align-content: center;
+    align-content: center;
   }
 
   /* Header Adjustments */
