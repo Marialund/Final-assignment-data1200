@@ -260,8 +260,9 @@
   }
 
   @media screen and (max-width: 800px) {
-    .title{
-      margin-top: 5%;
+    .Reflection{
+      margin-top: 10%;
+      padding-top: 10%;
     }    
   }
 
