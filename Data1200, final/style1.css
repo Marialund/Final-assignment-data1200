@@ -269,7 +269,10 @@
   .firstHeader {
     margin: 15px;
     font-size: 30px;
-    align-content: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
   }
 
 
