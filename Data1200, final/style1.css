@@ -230,6 +230,10 @@
     max-height: 0%;
   }
 
+  /* TOPICAL_INFORMATION CSS-CODE */
+
+
+
   /*
   MEDIA QUERIES
 
@@ -346,7 +350,7 @@
     }
   }
 
-  @media(max-width: 860px){
+  @media(max-width: 960px){
     #nav-bar{
       position:fixed;
       left: 50%;
