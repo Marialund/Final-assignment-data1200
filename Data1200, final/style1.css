@@ -258,8 +258,6 @@
   .img-1 {
     position: relative;
     top: 1%;
-    align-content: center;
-    justify-content: center;
   }
 
   /* Header Adjustments */
@@ -276,7 +274,7 @@
   /* Special Footer Friend (:( */
 
   .specialFooter {
-    margin: 25px;
+    margin: 40px;
     background-color: #fcdd04;
     text-align: center;
     padding: 20px;
