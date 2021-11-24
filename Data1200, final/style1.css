@@ -275,7 +275,12 @@
   /* Special Footer Friend (:( */
 
   .specialFooter {
-    margin: 15px;
+    margin: 25px;
+    background-color: #fcdd04;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin: -1%;
   }
 
   /*
