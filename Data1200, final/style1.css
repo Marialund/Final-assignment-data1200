@@ -193,12 +193,13 @@
   }
 
   /* ACCESSIBILITY-CSS CODE
+  
   Title
   */
 .title {
     display: flex;
     padding: 10px;
-    font-size: 25px;
+    font-size: 40px;
     margin: 20px;
     justify-content: center;
   }
@@ -266,6 +267,7 @@
 
   .firstHeader {
     margin: 15px;
+    font-size: 30px;
   }
 
 
