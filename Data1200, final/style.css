@@ -84,8 +84,6 @@ body{
   }
 }
 
-
-
 /* Title*/
 .title {
   display: flex;
@@ -97,15 +95,12 @@ body{
 
 
 /* Introduksjonstekst*/
-.article{
-  display: flex;
-}
 
 .info{
+  display: flex;
+  flex-flow: row wrap;
   margin: 10px;
   padding: 20px;
-  font-size: 15px;
-  line-height: 25px;
 }
 
 /* Hoved-flex*/
