@@ -129,18 +129,19 @@ p {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 25px;
     text-decoration: none;
     font-size: 16px;
   }
   
   .topnav a:hover{
     background-color:#fcdd04;
-    color: black;
+    color: rgb(50, 50, 50);
   }
   
   .topnav .icon{
     display: none; 
+    background-color: rgb(50, 50, 50);
   }
   
   .bar1, .bar2, .bar3 {
