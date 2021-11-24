@@ -254,10 +254,17 @@
   line-height: 25px;
   }
 
+  /* Image Adjustments */
   .img-1 {
     position: relative;
     top: 1%;
   align-content: center;
+  }
+
+  /* Header Adjustments */
+
+  .firstHeader {
+    margin: 15px;
   }
 
 
