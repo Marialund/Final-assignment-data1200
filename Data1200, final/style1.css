@@ -13,7 +13,8 @@
       src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
   }
   
-  /* Fonts*/
+  /* Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts 
+  */
   h1, h2{
      font-family: 'helvetica-bold', sans-serif; 
   }
@@ -36,7 +37,11 @@
   }
   
 
-  /* Navigation bar*/
+  /* Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar 
+
+  https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+  Inspiration for our navbar
+  */
   .topnav{
     background-color:rgb(50, 50, 50);
     overflow: auto;
@@ -62,7 +67,10 @@
     display: none; 
   }
   
-  /* Animation for menu bar on mobile */
+  /* Animation for menu bar on mobile 
+  https://www.w3schools.com/howto/howto_css_menu_icon.asp 
+  The link we used for inspiration
+  */
   .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -86,7 +94,9 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
  
-  /* REFLECTION CSS-CODE */
+  /* REFLECTION CSS-CODE
+  REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION 
+  */
 
  /* Tittelstil*/
   .Reflection {
@@ -219,7 +229,7 @@
   
   /* Innhold*/
   .text-1, .text-2, .text-3 {
-    background: #eeeeee;
+    background: #fffeeb;
     margin: 15px;
     padding: 15px;
     font-size: 15px;
@@ -244,7 +254,7 @@
 
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
-  background: #eeeeee;
+  background: #fcfbd2;
   margin: 20px;
   padding: 15px;
   font-size: 15px;
@@ -283,9 +293,9 @@
   }
 
   /*
-  MEDIA QUERIES
+  MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES
 
-  Mobilversjon
+  Mobilversjon Mobilversjon Mobilversjon Mobilversjon Mobilversjon Mobilversjon Mobilversjon Mobilversjon Mobilversjon Mobilversjon
   */
  @media all and (min-width: 600px) {
     article { flex: 1 0 0; }
@@ -384,7 +394,9 @@
   }
 }
 
-  /* Tabletversjon*/
+  /* Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon 
+  
+  */
   @media (max-width: 960px) {
     img{
       width: auto;
