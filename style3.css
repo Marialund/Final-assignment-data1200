@@ -40,7 +40,6 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   background-color: aqua;
-
 }
 
 /* Container for severdigheter */
@@ -55,6 +54,7 @@ h1 {
 .mainheadline {
   text-align: center;
   text-transform: uppercase;
+  margin-top: 3%;
   font-size: 1.4em;
 }
 
@@ -71,7 +71,13 @@ h1 {
   margin: 1em;
   padding: 1em;
   line-height: 1.8em;
-  
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7%;
+  text-align: center;
 }
 
 .headline {
