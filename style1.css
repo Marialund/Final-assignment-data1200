@@ -317,7 +317,6 @@
     article { flex: 1 0 0; }
   }
   
-    
 
   @media all and (min-width: 600px) {
     .flex-container { flex: 3 0px; }
@@ -483,7 +482,7 @@
   }
 
   /* Første avsnitt*/
-  .introduction{
+  .introduction1{
     display: flex;
     background-color:#eeeeee;
     flex-direction: column;
@@ -522,5 +521,5 @@
   }
    @media all and (min-width: 600px) {
     .flex-container { flex: 3 0px; }
-    .introduction { order: 0; } 
+    .introduction1 { order: 0; } 
    }
