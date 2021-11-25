@@ -4,7 +4,7 @@ h1, h3, p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* INTRO PAGE */
+/* INTRODUCTION */
 
 h1 {
   text-align: center;
@@ -12,12 +12,12 @@ h1 {
   font-size: 80px;
 }
 
+.intro {
+  text-align: center;
+  margin-bottom: 4%;
+  font-size: 120%;
 
-
-.sightseeing-container, .entertainment-container, .learn-container {
-  padding: 2em;
 }
-
 
 
 
