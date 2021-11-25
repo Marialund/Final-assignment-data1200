@@ -317,16 +317,6 @@
     article { flex: 1 0 0; }
   }
   
-  
-  @media (max-width: 800px) {
-    .flex-container1 {
-      flex-direction: row;
-    }
-  }
-   @media all and (min-width: 600px) {
-    .flex-container { flex: 3 0px; }
-    .introduction { order: 0; } 
-   }
     
 
   @media all and (min-width: 600px) {
@@ -456,7 +446,7 @@
     background-color: white;
 }
 
-div p{
+.flex-container1 p{
   font-size: 1.5rem;
 }
  /* Tittelstil */
@@ -521,8 +511,16 @@ div p{
     .tittel {
       font-size: 1.5rem;
     }
-    div p{
+    .flex-container1 p{
       font-size: 1rem;
     }
   }
-}
+  @media (max-width: 800px) {
+    .flex-container1 {
+      flex-direction: row;
+    }
+  }
+   @media all and (min-width: 600px) {
+    .flex-container { flex: 3 0px; }
+    .introduction { order: 0; } 
+   }
