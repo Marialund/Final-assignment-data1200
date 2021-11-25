@@ -259,6 +259,7 @@
     position: relative;
     top: 1%;
     justify-content: center;
+    margin: auto;
   }
 
   /* Header Adjustments */
