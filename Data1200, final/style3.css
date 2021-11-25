@@ -1,49 +1,35 @@
-@font-face {
-    font-family: 'helvetica';
-    src: url('Attachments/Helvetica.ttf') format('truetype');
-    }
+/* FONTS*/ 
 
-@font-face {
-    font-family: 'helvetica-bold';
-    src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
-    }
+@media screen {
 
+  
+}
 
-/* Fonts*/ 
-
-h1, h1, p {
+h1, h3, p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-/*Intro */ 
+/* INTRO */ 
 
 h1 {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 4%;
+    font-size: 80px;
 }
 
 .intro-sights {
    text-align: center;
 }
 
-.beskrivelse-sights {
-
-}
-
-
 
 /*THINGS TO SEE */
 
-
 /* Container for severdigheter */
 
-.flex-container-things {
+.flex-container-sights {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    padding: 1em;    
 }
 
 .mainheadline {
@@ -51,7 +37,6 @@ h1 {
   text-transform: uppercase;
   font-size: 1.4em;
 }
-
 
 .content-item1, .content-item2, .content-item3 {
     display: grid;
@@ -80,8 +65,22 @@ h1 {
 img {
   object-fit: contain;
   max-width: 100%;
-
 }
+
+
+/* MOBILVERSJON */
+
+@media screen and (max-width: 600px)  {
+    .flex-container-sights {
+      display: flex;
+      flex-direction: column;
+    }
+     .content-item1, .content-item2, .content-item3 {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
 
 
 
