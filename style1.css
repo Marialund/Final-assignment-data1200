@@ -514,9 +514,13 @@
       font-size: 1rem;
     }
   }
+  
   @media (max-width: 800px) {
     .flex-container1 {
       flex-direction: row;
+    }
+    .main, .introduction1 {
+      flex: 100%;
     }
   }
    @media all and (min-width: 600px) {
