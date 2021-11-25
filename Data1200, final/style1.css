@@ -24,10 +24,17 @@
   
   li, a{
     font-family: 'helvetica-bold', sans-serif;
-    font-size: 16px;
-    color: black;
   }
  
+    /*Oslometlogo*/
+  .oslomet{
+    background-color: #fcdd04;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin: -1%;
+  }
+  
 
   /* Navigation bar*/
   .topnav{
@@ -41,7 +48,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 25px 25px;
+    padding: 25px 20px;
     text-decoration: none;
     font-size: 16px;
   }
@@ -79,38 +86,27 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
  
-
   /* REFLECTION CSS-CODE */
 
-  /*Oslometlogo*/
-  .oslomet{
-    background-color: #fcdd04;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    margin: -1%;
-  }
-  
  /* Tittelstil*/
   .Reflection {
     display: flex;
     height: 15vh;
     align-items: center;
     justify-content: center;
-    margin: -1%;
+    margin: 5%;
     background-size: cover;
     z-index: 2;
-    padding-top: 5%;
-    margin-top: 2%;
   }
 
   /* Headertitle*/
-  .title {
+  .tittel {
     color:black;
     display: flex;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 1%;
     padding-top: 5%;
+    font-size: 30px;
   }
 
   /* Article */
@@ -129,7 +125,7 @@
     display: flex;
     background-color: white;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
     width: 50%;
     margin-right: auto;
     justify-content: flex-end;
@@ -144,7 +140,7 @@
     background-color: white;
     flex-direction: column;
     width: 50%;
-    text-align: center;
+    text-align: justify;
     justify-content:flex-end;
     margin-right: auto;
     line-height: 25px;
@@ -157,9 +153,8 @@
     display: flex;
     background-color: white;
     flex-direction: column;
-    text-align: left;
+    text-align: justify;
     line-height: 25px;
-    text-align: center;
     margin-top: 4%;
   }
 
@@ -193,6 +188,7 @@
   }
 
   /* ACCESSIBILITY-CSS CODE
+  ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY
   
   Title
   */
@@ -235,6 +231,7 @@
 
   /* 
   TOPICAL_INFORMATION CSS-CODE
+  TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL TOPICAL
   
   Main Flexbox*/
   .main-flex {
@@ -248,7 +245,7 @@
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
   background: #fcfbd2;
-  margin: 10px;
+  margin: 20px;
   padding: 15px;
   font-size: 15px;
   text-align: left;
@@ -260,7 +257,7 @@
   .img-1 {
     position: relative;
     top: 1%;
-  align-content: center;
+    justify-content: center;
   }
 
   /* Header Adjustments */
@@ -268,8 +265,22 @@
   .firstHeader {
     margin: 15px;
     font-size: 30px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
   }
+  
+  /* Special Footer Friend (:( */
 
+  .specialFooter {
+    margin: 40px;
+    background-color: #fcdd04;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin: -1%;
+  }
 
   /*
   MEDIA QUERIES
@@ -317,6 +328,12 @@
       width: 100%;
       height: auto;
       padding: 4%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .Reflection{
+      margin: 15%;
     }
   }
 
@@ -422,4 +439,3 @@
       flex: 100%;
     }
   }
-  
