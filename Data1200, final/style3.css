@@ -11,28 +11,25 @@
 
 /* Fonts*/ 
 
-h1 {
+h1, h1, p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
-h2{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
 
 
 /*Intro */ 
 
 h1 {
     text-align: center;
+    margin-top: 2em;
 }
 
-.intro {
+.intro-sights {
    text-align: center;
+}
+
+.beskrivelse-sights {
+
 }
 
 
@@ -46,8 +43,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    padding: 1em;
-    
+    padding: 1em;    
 }
 
 .mainheadline {
