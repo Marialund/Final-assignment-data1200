@@ -1,7 +1,44 @@
-/* FONTS*/ 
+@font-face {
+  font-family: 'helvetica';
+  src: url('Attachments/Helvetica.ttf') format('truetype');
+}
 
-h1, h3, p {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@font-face {
+  font-family: 'helvetica-bold';
+  src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
+}
+
+/* Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts 
+*/
+h1, h2{
+ font-family: 'helvetica-bold', sans-serif; 
+}
+
+p, footer {
+font-family: 'helvetica', sans-serif;
+}
+
+li, a{
+font-family: 'helvetica-bold', sans-serif;
+}
+
+/*Oslometlogo*/
+.oslomet{
+background-color: #fcdd04;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+margin: -1%;
+}
+
+/* COMMON-FOOTER */
+.footer{
+background-color: #fcdd04;
+text-align: center;
+padding: 20px;
+font-size: 15px;
+margin: 15px;
+margin: -1%;
 }
 
 /* INTRODUCTION */
