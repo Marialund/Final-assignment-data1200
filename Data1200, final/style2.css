@@ -90,7 +90,6 @@
     position: relative; 
     height: 100vh;
     display: flex;
-    
     align-items: center;
     justify-content: center;
   
@@ -143,41 +142,25 @@
       width: 80%;
       margin-top: 7%;
       padding-top: 5vh;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         width: 80%;
         margin: 20px;
-        padding: 20px;
-    }
-
-    h2{
-      padding-top: 5vh;
-      padding-left: 10vw;
-      padding-right: 10vw;
-      padding-bottom: 5vh;
-      font-size: 2.6rem;
-      margin: 0;
+        
+        margin-top: 4%
     }
   }
 
 
 /*MOBILE PHONES SMALLER THAN 375PX*/
   @media all and (max-width:374px){
-h2 {
-  font-size: 2.2rem ;
-}
-
-h1 {
-  font-size: 5rem;
-  margin-top: 6%;
-}
 
 p {
   font-size: 1rem;
-}
+  }
 }
 
   /*TABLET*/
