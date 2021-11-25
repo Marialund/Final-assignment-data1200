@@ -445,6 +445,10 @@
   body{
     background-color: white;
 }
+
+div p{
+  font-size: 1.5rem;
+}
  /* Tittelstil */
  .Reflection {
     display: flex;
@@ -464,7 +468,6 @@
     margin-top: 1%;
     padding-top: 5%;
     font-size: 2rem;
-    
   }
 
   /* Article */
@@ -476,13 +479,13 @@
     flex: 100%;
     margin: 2%;
     flex-wrap: wrap;
-    background-color:#fcdd04; 
+    background-color:#eeeeee; 
   }
 
   /* Første avsnitt*/
   .introduction{
     display: flex;
-    background-color:#fcdd04;
+    background-color:#eeeeee;
     flex-direction: column;
     text-align: justify;
     width: 45%;
@@ -508,5 +511,8 @@
   @media all and (max-width:600px){
     .tittel {
       font-size: 1.5rem;
+    }
+    div p{
+      font-size: 1rem;
     }
   }
