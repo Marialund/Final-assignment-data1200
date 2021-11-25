@@ -124,8 +124,7 @@
     display: flex;
     text-align: center;
     margin-top: 1%;
-    padding-top: 5%;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   /* Article */
@@ -335,7 +334,7 @@
 
     .Reflection{
       margin-top: 15%;
-      padding-top: 15%;
+      padding-top: 5%;
       margin: 15%;
     }
     
@@ -460,7 +459,7 @@
   }
 
   /* Headertitle*/
-  .tittel {
+  .tittel1 {
     color:black;
     display: flex;
     text-align: center;
