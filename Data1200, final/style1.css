@@ -204,7 +204,7 @@
 .title {
     display: flex;
     padding: 10px;
-    font-size: 40px;
+    font-size: 25px;
     margin: 20px;
     justify-content: center;
   }
@@ -238,11 +238,14 @@
     max-height: 0%;
   }
 
-  /* Final picture*/
+  /* Pictures*/
+  .codeexample{
+    justify-content: center;
+  }
+
   .flex-semantic{
     display: flex;
     flex: 100%;
-    flex-flow: row wrap;
     margin-bottom: 40px;
     padding: 15px;
   }
@@ -268,7 +271,7 @@
 
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
-  background: #fcfbd2;
+  background: #eeeeee;
   margin: 20px;
   padding: 15px;
   font-size: 15px;
@@ -385,7 +388,7 @@
       text-align: left;
     }
   }
- 
+
  /*menubar*/
   @media screen and (max-width: 800px) {
   .topnav .icon {
@@ -415,7 +418,6 @@
     img{
       width: auto;
       height: auto;
-      padding: 4%;
     }
   }
 
