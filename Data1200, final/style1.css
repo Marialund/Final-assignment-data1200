@@ -343,13 +343,11 @@
     .stressa {
       width: 100%;
       height: auto;
-      padding: 4%;
     }
 
     .lykkelig{
       width: 100%;
       height: auto;
-      padding: 4%;
     }
 
     .topnav a:not(:first-child) {display: none;}
