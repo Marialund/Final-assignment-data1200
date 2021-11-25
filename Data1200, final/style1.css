@@ -36,6 +36,15 @@
     margin: -1%;
   }
   
+  /* COMMON-FOOTER */
+  .footer{
+    background-color: #fcdd04;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin: 15px;
+    margin: -1%;
+  }
 
   /* Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar Navigation bar 
 
@@ -187,16 +196,6 @@
     position: relative;
  }
   
-  /* COMMON-FOOTER */
-.footer{
-    background-color: #fcdd04;
-    text-align: center;
-    padding: 20px;
-    font-size: 15px;
-    margin: 15px;
-    margin: -1%;
-  }
-
   /* ACCESSIBILITY-CSS CODE
   ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY
   
