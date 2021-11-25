@@ -203,9 +203,9 @@
   */
 .title {
     display: flex;
-    padding: 10px;
-    font-size: 25px;
-    margin: 20px;
+    padding-top: 5%;
+    font-size: 35px;
+    margin-top: 1%;
     justify-content: center;
   }
   
