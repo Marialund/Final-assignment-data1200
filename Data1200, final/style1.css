@@ -26,6 +26,15 @@
     font-family: 'helvetica-bold', sans-serif;
   }
  
+    /*Oslometlogo*/
+  .oslomet{
+    background-color: #fcdd04;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin: -1%;
+  }
+  
 
   /* Navigation bar*/
   .topnav{
@@ -77,19 +86,8 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
  
+  /* REFLECTION CSS-CODE */
 
-  /* REFLECTION CSS-CODE 
-  REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION */
-
-  /*Oslometlogo*/
-  .oslomet{
-    background-color: #fcdd04;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    margin: -1%;
-  }
-  
  /* Tittelstil*/
   .Reflection {
     display: flex;
@@ -257,12 +255,10 @@
   }
 
   /* Image Adjustments */
-  .surveillance {
+  .img-1 {
     position: relative;
     top: 1%;
     justify-content: center;
-    display: flex;
-    margin-right: 1%;
   }
 
   /* Header Adjustments */
@@ -342,7 +338,7 @@
     }
   }
 
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 600px){
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -350,7 +346,7 @@
     }
   }  
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     .topnav.responsive {
       position: relative;
     }
@@ -368,7 +364,7 @@
   }
  
  /*menubar*/
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
   .topnav .icon {
     display: block;
     cursor: pointer;
@@ -376,7 +372,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .logo{
     width: 40%;
     height: auto;
