@@ -217,18 +217,18 @@
     margin: 15px;
     padding: 15px;
     line-height: 25px;
+    text-align: center;
   }
   
   /* Hoved-flex*/
   .flex-container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
   }
   
   /* Innhold*/
   .text-1, .text-2, .text-3 {
-    background: #fffeeb;
+    background: #f1f1f1;
     margin: 15px;
     padding: 15px;
     font-size: 15px;
@@ -236,6 +236,21 @@
     flex: 25%;
     line-height: 25px;
     max-height: 0%;
+  }
+
+  /* Final picture*/
+  .flex-semantic{
+    display: flex;
+    flex: 100%;
+    flex-flow: row wrap;
+    margin-bottom: 40px;
+    padding: 15px;
+  }
+
+  .semantic-explained{
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
   }
 
   /* 
