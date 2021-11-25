@@ -255,11 +255,10 @@
   }
 
   /* Image Adjustments */
-  .img-1 {
+  .surveillance {
     position: relative;
     top: 1%;
     justify-content: center;
-    margin: auto;
   }
 
   /* Header Adjustments */
