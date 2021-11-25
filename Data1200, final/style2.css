@@ -136,6 +136,15 @@
     width: 80%;
   }
 
+  .footer{
+    background-color: #fcdd04;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin: 15px;
+    margin: -1%;
+  }
+
   /*MOBILE PHONES*/
   @media all and (max-width: 600px){
     p {
