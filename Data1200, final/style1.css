@@ -329,23 +329,17 @@
     .flex-container {
       flex-direction: row;
     }
-  }
 
-  @media (max-width: 800px) {
     .main, .introduction {
       flex: 100%;
     }
-  }
 
-  @media screen and (max-width: 800px) {
     .Reflection{
       margin-top: 15%;
       padding-top: 15%;
       margin: 15%;
-    }    
-  }
-
-  @media screen and (max-width: 800px) {
+    }
+    
     .stressa {
       width: 100%;
       height: auto;
@@ -357,17 +351,13 @@
       height: auto;
       padding: 4%;
     }
-  }
 
-  @media screen and (max-width: 800px){
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-  }  
-  
-  @media screen and (max-width: 800px) {
+
     .topnav.responsive {
       position: relative;
     }
@@ -376,25 +366,25 @@
       right: 0;
       top: 0;
     }
-  
+
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
   }
-
- /*menubar*/
-  @media screen and (max-width: 800px) {
-  .topnav .icon {
+  
+  /*menubar*/
+    @media screen and (max-width: 800px) {
+    .topnav .icon {
     display: block;
     cursor: pointer;
     margin-right: auto;
+    }
   }
-}
 
-@media screen and (max-width: 800px) {
-  .logo{
+  @media screen and (max-width: 800px) {
+    .logo{
     width: 40%;
     height: auto;
     padding-top: 0;
@@ -406,7 +396,7 @@
   }
 }
 
-  /* Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon 
+/* Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon Tabletversjon 
   
   */
   @media (max-width: 960px) {
@@ -414,21 +404,15 @@
       width: auto;
       height: auto;
     }
-  }
-
-  @media (max-width: 960px) {
+    
     .main, .introduction {
-      flex: 100%;
+        flex: 100%;
     }
-  }
 
-  @media (max-width: 960px) {
     .flex-container {
       flex-direction: row;
     }
-  }
-
-  @media(max-width: 960px){
+    
     #nav-bar{
       position:fixed;
       left: 50%;
@@ -441,9 +425,7 @@
     button{
       display: block;
     }
-  }
-  
-  @media screen and (max-width: 960px) {
+
     .logo{
       width: 10%;
       height: auto;
@@ -454,11 +436,9 @@
       max-height: 8vh;
       align-items: center;
     }
-  }
 
-   /* Mobil og ipad for Accessibility*/
-@media screen and (max-width: 960px) {
     .text-1, .text-2, .text-3 {
       flex: 100%;
     }
   }
+  
