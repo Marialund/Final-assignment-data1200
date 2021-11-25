@@ -259,6 +259,8 @@
     position: relative;
     top: 1%;
     justify-content: center;
+    display: flex;
+    margin-right: 1%;
   }
 
   /* Header Adjustments */
