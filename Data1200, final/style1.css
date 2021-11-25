@@ -337,7 +337,7 @@
     }
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -345,7 +345,7 @@
     }
   }  
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .topnav.responsive {
       position: relative;
     }
@@ -363,7 +363,7 @@
   }
  
  /*menubar*/
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
   .topnav .icon {
     display: block;
     cursor: pointer;
@@ -371,7 +371,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .logo{
     width: 40%;
     height: auto;
