@@ -289,10 +289,8 @@
 
   .firstHeader {
     margin-top: 100px;
-    margin: 15px;
     font-size: 25px;
     display: flex;
-    padding-top: 50px;
     padding: 10px;
     justify-content: center;
     text-align: center;
