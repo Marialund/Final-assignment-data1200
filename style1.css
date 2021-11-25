@@ -442,7 +442,7 @@
 /*ADAM SIN CSS!! */
 
   body{
-    background-color: lightyellow;
+    background-color: white;
 }
  /* Tittelstil */
  .Reflection {
@@ -475,7 +475,7 @@
     flex: 100%;
     margin: 2%;
     flex-wrap: wrap;
-    background-color: #fcdd04;
+    background-color:#fcdd04; 
   }
 
   /* Første avsnitt*/
