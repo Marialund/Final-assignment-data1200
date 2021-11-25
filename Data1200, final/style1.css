@@ -26,6 +26,15 @@
     font-family: 'helvetica-bold', sans-serif;
   }
  
+    /*Oslometlogo*/
+  .oslomet{
+    background-color: #fcdd04;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin: -1%;
+  }
+  
 
   /* Navigation bar*/
   .topnav{
@@ -77,18 +86,8 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
  
-
   /* REFLECTION CSS-CODE */
 
-  /*Oslometlogo*/
-  .oslomet{
-    background-color: #fcdd04;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    margin: -1%;
-  }
-  
  /* Tittelstil*/
   .Reflection {
     display: flex;
@@ -190,6 +189,7 @@
   }
 
   /* ACCESSIBILITY-CSS CODE
+  ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY ACCESSIBILITY
   
   Title
   */
@@ -246,7 +246,7 @@
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
   background: #fcfbd2;
-  margin: 10px;
+  margin: 20px;
   padding: 15px;
   font-size: 15px;
   text-align: left;
@@ -258,7 +258,7 @@
   .img-1 {
     position: relative;
     top: 1%;
-    align-content: center;
+    justify-content: center;
   }
 
   /* Header Adjustments */
@@ -275,7 +275,7 @@
   /* Special Footer Friend (:( */
 
   .specialFooter {
-    margin: 25px;
+    margin: 40px;
     background-color: #fcdd04;
     text-align: center;
     padding: 20px;
@@ -329,6 +329,12 @@
       width: 100%;
       height: auto;
       padding: 4%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .Reflection{
+      margin: 15%;
     }
   }
 
@@ -434,4 +440,3 @@
       flex: 100%;
     }
   }
-  
