@@ -219,7 +219,7 @@
   
   /* Innhold*/
   .text-1, .text-2, .text-3 {
-    background: #fffeeb;
+    background: #eeeeee;
     margin: 15px;
     padding: 15px;
     font-size: 15px;
@@ -244,7 +244,7 @@
 
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
-  background: #fcfbd2;
+  background: #eeeeee;
   margin: 20px;
   padding: 15px;
   font-size: 15px;
