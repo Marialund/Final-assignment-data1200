@@ -190,7 +190,8 @@ h1 {
 
     .slideshow-container {
       margin: auto;
-      margin-bottom: 4em;
+      margin-top: 5em;
+      margin-bottom: 10em;
       max-width: 70%;
   }
 
@@ -198,12 +199,8 @@ h1 {
     font-size: 1em;
    }
 
-  .slideshow-container img {
-    object-fit: contain;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .nextMemeButton {
+    padding: 0em;
   }
 }
 
