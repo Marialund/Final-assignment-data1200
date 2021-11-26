@@ -472,19 +472,21 @@
   display: flex;
   flex: 100%;
   background-size: cover;
-  margin: -1;
   width: 100%;
+  margin: -1;
+  height: 60vh;
   margin-top: 3vh;
+  background-image: url('Attachments/oslomet\ front\ page.png');
 }
 
 .tittel1{
   display: flex;
-  z-index: 1;
   align-items: center;
-  margin-left: -1400px;
-  color: #fcdd04;
-  margin-bottom: 800px;
+  position: absolute;
+  left: 5%;
 }
+
+
 
   body{
     background-color: white;
