@@ -102,6 +102,106 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
+
+  /*HOMEPAGE CSS!! */
+
+.headerpicture{
+  display: flex;
+  flex: 100%;
+  background-size: cover;
+  width: 100%;
+  margin: -1;
+  height: 60vh;
+  margin-top: 3vh;
+  background-image: url('Attachments/oslomet\ front\ page.png');
+}
+
+.tittel1 {
+  display: flex;
+  left: 5%;
+  flex-direction: column;
+  text-align: center;
+}
+
+#explore {
+  font-size: 1.3em;
+  background-color: rgb(50, 50, 50);
+  border: none;
+  color: white;
+  box-shadow: 2px 2px grey;
+  border-radius: 7px;
+}
+
+  body{
+    background-color: white;
+  }
+
+.flex-container1 p{
+  font-size: 1.5rem;
+}
+
+
+ /* Tittelstil */
+ .Reflection {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    background-size: cover;
+    z-index: 2;
+  }
+
+  /* Headertitle*/
+  .tittel1 {
+    color:black;
+    display: flex;
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 2rem;
+  }
+
+  /* Article */
+  .flex-container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    flex: 100%;
+    margin: -1;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    background-color: #eeeeee; 
+  }
+
+  /* Første avsnitt*/
+  .introduction1{
+    display: flex;
+    background-color:#eeeeee;
+    flex-direction: column;
+    text-align: justify;
+    width: 45%;
+    margin-right: auto;
+    justify-content: flex-end;
+    line-height: 1.5;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+   
+  /* Bilde nr1 */
+  .datatorg{
+    margin: auto 0;
+    display: flex;
+    position: relative;
+    margin-left: 1%;
+  }
+
  
   /* REFLECTION CSS-CODE
   REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION 
