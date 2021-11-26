@@ -36,7 +36,7 @@ h1 {
 .intro {
   text-align: center;
   margin-bottom: 4%;
-  font-size: 120%;
+  font-size: 1em;
 }
 
 
@@ -61,7 +61,7 @@ h1 {
 .flex-container-sights {
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: yellow;
     margin-top: 2em;
 }
 
@@ -80,6 +80,12 @@ h1 {
     margin: 1em;
     background-color: aliceblue;
 }
+
+.content-item1 img, .content-item2 img, .content-item3 img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
 
 .sights-text {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,13 +106,8 @@ h1 {
   font-size: 1.2em;
   padding: 0.3em;
   margin-bottom: 2em;
-  text-transform: uppercase;
 }
 
-img {
-  object-fit: contain;
-  max-width: 100%;
-}
 
 
 
@@ -117,12 +118,17 @@ img {
 }
 
 .slideshow-container {
-  margin-top: 2em;
+  margin-top: auto;
   max-width: 30em;
   position: relative;
-  margin-left: 45em;
+  margin-left: 25em;
   margin-bottom: 10em;
   background-color: black;
+}
+
+.slideshow-container img {
+  object-fit: contain;
+  max-width: 100%;
 }
 
 .slideshow-headline {
@@ -143,46 +149,31 @@ img {
   padding: 1em;
 }
 
-/* Hide the images by default */
+/* Memes only appear when button is pressed */ 
 
-.mySlides {
+.memeSlides {
   display: none;
   padding: 1em;
 }
 
-/*Next and previous buttons */
-.prev, .next {
+/*Next-button*/
+.nextMemeButton {
   background-color: yellow;
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 0.4em;
   color: black;
-  font-weight: bolder;
-  font-size: 2em;
-}
-
-/* Position the "next button" to the right */
-.next {
+  font-size: 2.5em;
   right: 0;
 }
 
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
-  animation-name: fade;
-  animation-duration: 1s;
-}
 
+/* TABLETVERSJON */
 
-
-
-/* MOBILVERSJON */
-
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 800px)  {
     .flex-container-sights {
       display: flex;
       flex-direction: column;
@@ -197,10 +188,24 @@ img {
     }
 
     .slideshow-container {
-      margin-left: auto;
+      margin: auto;
+      margin-bottom: 4em;
+      max-width: 70%;
+  }
+
+
+  .captiontext{
+    font-size: 1em;
+   }
+
+  .slideshow-container img {
+    object-fit: contain;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
-
 
 
 
@@ -313,6 +318,7 @@ img {
       margin-top: -30px;
       display: none;
     }
+    
     button{
       display: block;
     }
