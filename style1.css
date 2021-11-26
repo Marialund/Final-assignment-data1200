@@ -522,9 +522,10 @@
     justify-content: space-around;
     padding: 15px;
     flex: 100%;
-    margin: 2%;
+    margin: -1;
+    margin-bottom: 30px;
     flex-wrap: wrap;
-    background-color:#eeeeee; 
+    background-color: #eeeeee; 
   }
 
   /* Første avsnitt*/
