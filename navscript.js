@@ -10,7 +10,7 @@ function navigation(){
 }
 
 
-/* toggling between the rotating animation on the navbar on mobile phone.*/
+/* toggling between the rotating animation on the navbar-icon on mobile phone.*/
 function navigation2(x) {
     x.classList.toggle("change");
 }
