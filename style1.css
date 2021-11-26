@@ -103,9 +103,8 @@ homepage homepage homepage homepage homepage homepage homepage homepage homepage
   flex: 100%;
   background-size: cover;
   width: 100%;
-  margin: -1%;
   height: 60vh;
-  margin-top: 3vh;
+  margin-top: 2vh;
   background-image: url('Attachments/oslomet\ front\ page.png');
 }
 
@@ -163,8 +162,7 @@ homepage homepage homepage homepage homepage homepage homepage homepage homepage
     justify-content: space-around;
     padding: 15px;
     flex: 100%;
-    margin: -1%;
-    margin-bottom: 30px;
+    margin-bottom: 1vh;
     margin-top: 10px;
     flex-wrap: wrap;
     background-color: #eeeeee; 
