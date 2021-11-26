@@ -581,6 +581,7 @@
       flex: 100%;
     }
   }
+  
    @media all and (min-width: 600px) {
     .flex-container { flex: 3 0px; }
     .introduction1 { order: 0; } 
