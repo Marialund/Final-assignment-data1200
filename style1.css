@@ -141,7 +141,7 @@
   /* Første avsnitt*/
   .introduction{
     display: flex;
-    background-color: white;
+    background-color: #f1f1f1;
     flex-direction: column;
     text-align: justify;
     width: 50%;
@@ -150,12 +150,13 @@
     line-height: 25px;
     margin-bottom: 4%;
     margin-top: 4%;
+    padding: 15px;
   }
 
   /* Andre avsnitt*/
   .main{
     display: flex;
-    background-color: white;
+    background-color: #f1f1f1;
     flex-direction: column;
     width: 50%;
     text-align: justify;
@@ -164,16 +165,18 @@
     line-height: 25px;
     margin-top: 4%;
     margin-left: 1%;
+    padding: 15px;
   }
 
   /* Tredje avsnitt*/
   .conclusion{
     display: flex;
-    background-color: white;
+    background-color: #f1f1f1;
     flex-direction: column;
     text-align: justify;
     line-height: 25px;
     margin-top: 4%;
+    padding: 15px;
   }
 
   /* Bilder */ 
@@ -269,7 +272,7 @@
 
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3 {
-  background: #eeeeee;
+  background: #f1f1f1;
   margin: 10px;
   padding: 15px;
   font-size: 15px;
