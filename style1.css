@@ -487,22 +487,23 @@
   text-align: center;
 }
 
-#explore {
+/*#explore {
   font-size: 0.5em;
   background-color: #fcdd04;
   border: none;
   box-shadow: 2px 2px grey;
 }
 
-
-
   body{
     background-color: white;
 }
+*/
 
 .flex-container1 p{
   font-size: 1.5rem;
 }
+
+
  /* Tittelstil */
  .Reflection {
     display: flex;
@@ -581,7 +582,7 @@
       flex: 100%;
     }
   }
-  
+
    @media all and (min-width: 600px) {
     .flex-container { flex: 3 0px; }
     .introduction1 { order: 0; } 
