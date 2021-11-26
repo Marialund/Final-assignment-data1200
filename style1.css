@@ -281,6 +281,15 @@
   line-height: 25px;
   }
 
+  /* Image Adjustments */
+  .img-1 {
+    display: flex;
+    position: relative;
+    top: 1%;
+    justify-content: center;
+    margin-left: 1%;
+  }
+
   .paragraph-3 {
     margin: 5px;
     margin-bottom: 20px;
@@ -303,14 +312,6 @@
     line-height: 25px;
   }
 
-  /* Image Adjustments */
-  .img-1 {
-    display: flex;
-    position: relative;
-    top: 1%;
-    justify-content: center;
-    margin-left: 1%;
-  }
 
   /* Header Adjustments */
 
