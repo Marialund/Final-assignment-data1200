@@ -273,7 +273,7 @@
   /* Subject Content */
   .paragraph-1, .paragraph-2, .paragraph-3 {
   background: #f1f1f1;
-  margin: 10px;
+  margin: 5px;
   padding: 15px;
   font-size: 15px;
   text-align: left;
@@ -283,6 +283,12 @@
 
   .paragraph-4 {
     margin: 20px;
+    background: #f1f1f1;
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+    flex: 100%;
+    line-height: 25px;
   }
 
   /* Image Adjustments */
@@ -291,6 +297,7 @@
     top: 1%;
     justify-content: center;
     margin-left: 1%;
+    margin-top: 5px;
   }
 
   /* Header Adjustments */
