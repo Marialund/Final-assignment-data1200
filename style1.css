@@ -305,6 +305,7 @@
 
   /* Image Adjustments */
   .img-1 {
+    display: flex;
     position: relative;
     top: 1%;
     justify-content: center;
