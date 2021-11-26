@@ -286,8 +286,7 @@
     display: flex;
     position: relative;
     top: 1%;
-    justify-content: center;
-    margin-left: 1%;
+    position: center;
   }
 
   .paragraph-3 {
