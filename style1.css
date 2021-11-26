@@ -1,9 +1,4 @@
-/* Font for mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
-  
-  @font-face {
+ @font-face {
       font-family: 'helvetica';
       src: url('Attachments/Helvetica.ttf') format('truetype');
     }
@@ -103,7 +98,8 @@
     transform: rotate(45deg) translate(-8px, -8px) ;
   }  
 
-  /*HOMEPAGE CSS!! */
+  /*HOMEPAGE CSS!! HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE 
+  */
 
 .headerpicture{
   display: flex;
@@ -205,9 +201,9 @@
  
   /* REFLECTION CSS-CODE
   REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION REFLECTION 
-  */
+  
 
- /* Tittelstil*/
+  Tittelstil*/
   .Reflection {
     display: flex;
     height: 15vh;
@@ -279,9 +275,9 @@
     padding: 15px;
   }
 
-  /* Bilder */ 
- 
-  /* Bilde nr1 */
+  /* Bilder 
+
+  Bilde nr1 */
   .lykkelig{
     margin: auto 0;
     display: flex;
@@ -425,7 +421,7 @@
     text-align: center;
   }
   
-  /* Special Footer Friend (:( */
+  /* Special Footer */
 
   .specialFooter {
     margin: 40px;
