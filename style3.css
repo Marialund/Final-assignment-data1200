@@ -1,3 +1,6 @@
+
+/* FONTS */
+
 @font-face {
   font-family: 'helvetica';
   src: url('Attachments/Helvetica.ttf') format('truetype');
@@ -8,8 +11,6 @@
   src: url('Attachments/Helvetica-Bold.ttf') format('truetype');
 }
 
-/* Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts Fonts 
-*/
 h1, h2{
  font-family: 'helvetica-bold', sans-serif; 
 }
@@ -22,54 +23,30 @@ li, a{
 font-family: 'helvetica-bold', sans-serif;
 }
 
-/*Oslometlogo*/
-.oslomet{
-background-color: #fcdd04;
-padding: 30px;
-text-align: center;
-font-size: 35px;
-margin: -1%;
-}
 
-/* COMMON-FOOTER */
-.footer{
-background-color: #fcdd04;
-text-align: center;
-padding: 20px;
-font-size: 15px;
-margin: 15px;
-margin: -1%;
-}
 
 /* INTRODUCTION */
 
 h1 {
   text-align: center;
   margin-top: 4%;
-  font-size: 80px;
+  font-size: 4em;
 }
 
 .intro {
   text-align: center;
   margin-bottom: 4%;
   font-size: 120%;
-
 }
 
 
 
-
-
-
-
-
-/*THINGS TO SEE */
+/* SIGHTSEEING */
 
 /*Intro*/
 
-
 .intro-sights {
- text-align: center;
+  text-align: center;
 }
 
 .pagelocations-container {
@@ -84,11 +61,12 @@ h1 {
 .flex-container-sights {
     display: flex;
     flex-direction: column;
-    background-color:deepskyblue;
+    background-color: lightgrey;
     margin-top: 2em;
 }
 
 .mainheadline {
+  
   text-align: center;
   text-transform: uppercase;
   margin-top: 3%;
@@ -103,7 +81,7 @@ h1 {
     background-color: aliceblue;
 }
 
-.text {
+.sights-text {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 1em;
   padding: 1em;
@@ -132,10 +110,72 @@ img {
 
 
 
+/* ENTERTAINMENT */
+
+.slideshow-description {
+  text-align: center;
+}
+
+.slideshow-container {
+  margin-top: 2em;
+  max-width: 30em;
+  position: relative;
+  margin-left: 45em;
+  margin-bottom: 10em;
+  background-color: black;
+}
+
+.slideshow-headline {
+  padding: 5em;
+  margin-top: 5em;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  background-color: yellow;
+}
+
+.captiontext{
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+  display: none;
+  padding: 1em;
+}
+
+/*Next and previous buttons */
+.prev, .next {
+  background-color: yellow;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
 
 
-
-
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
 
 
 
@@ -147,34 +187,38 @@ img {
       display: flex;
       flex-direction: column;
     }
+    .mainheadline {
+      margin-top: 10%;
+    }
      .content-item1, .content-item2, .content-item3 {
       display: grid;
       grid-template-columns: 1fr;
+      border: none;
     }
+
+    .slideshow-container {
+      margin-left: auto;
   }
+}
 
 
 
 
 
+/* COMMON-HEADER */
+
+/*Oslomet-logo*/
+.oslomet{
+    background-color: #fcdd04;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin: -1%;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* NAV-BAR */
-
+/* Nav-bar */
 
 .topnav{
     background-color:rgb(50, 50, 50);
@@ -248,7 +292,9 @@ img {
     }
   }
  
- /*menubar*/
+
+ /* Menu-bar */
+
   @media screen and (max-width: 600px) {
   .topnav .icon {
     display: block;
@@ -271,5 +317,22 @@ img {
       display: block;
     }
   }
+
+
+
+  /* COMMON-FOOTER */
+
+.footer{
+    background-color: #fcdd04;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    margin: 15px;
+    margin: -1%;
+}
+
+
+
+  
 
 
