@@ -1,13 +1,16 @@
+
+// Slide-index starts at 0
 var slideIndex = 0;
+
+// Main function inherits parameter from above variable   
 startMemeSlideshow(slideIndex);
 
-
-// Button for next meme
+// Button for next meme - functionx initiated through onclick
 function nextSlide(n) {
   startMemeSlideshow(slideIndex += n);
 }
 
-
+// Main function starts slideshow
 function startMemeSlideshow(n) {
   var i;
   var slides = document.getElementsByClassName("memeSlides");
