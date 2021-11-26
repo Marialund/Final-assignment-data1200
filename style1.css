@@ -280,6 +280,12 @@
 
   .paragraph-4 {
     margin: 20px;
+    background: #eeeeee;
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+    flex: 100%;
+    line-height: 25px;
   }
 
   /* Image Adjustments */
