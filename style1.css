@@ -465,7 +465,7 @@
     }
   }
   
-/*ADAM SIN CSS!! */
+/*homepage CSS!! */
 
 .headerpicture{
   display: flex;
@@ -573,3 +573,4 @@
     .flex-container { flex: 3 0px; }
     .introduction1 { order: 0; } 
    }
+
