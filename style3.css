@@ -172,7 +172,7 @@ h1 {
 
 
 
-/* TABLETVERSJON */
+/* MOBILE/TABLET VERSION */
 
 @media screen and (max-width: 800px)  {
     .flex-container-sights {
@@ -193,7 +193,6 @@ h1 {
       margin-bottom: 4em;
       max-width: 70%;
   }
-
 
   .captiontext{
     font-size: 1em;
