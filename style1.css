@@ -487,17 +487,18 @@
   text-align: center;
 }
 
-/*#explore {
-  font-size: 0.5em;
-  background-color: #fcdd04;
+#explore {
+  font-size: 1.3em;
+  background-color: rgb(50, 50, 50);
   border: none;
+  color: white;
   box-shadow: 2px 2px grey;
+  border-radius: 7px;
 }
 
   body{
     background-color: white;
-}
-*/
+  }
 
 .flex-container1 p{
   font-size: 1.5rem;
@@ -580,6 +581,10 @@
     }
     .main, .introduction1 {
       flex: 100%;
+    }
+
+    #explore{
+      font-size: 1em;
     }
   }
 
