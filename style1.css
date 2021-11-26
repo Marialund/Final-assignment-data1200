@@ -268,7 +268,7 @@
   }
 
   /* Subject Content */
-  .paragraph-1, .paragraph-2, .paragraph-3, .paragraph-4 {
+  .paragraph-1, .paragraph-2, .paragraph-3 {
   background: #eeeeee;
   margin: 10px;
   padding: 15px;
@@ -276,6 +276,10 @@
   text-align: left;
   flex: 100%;
   line-height: 25px;
+  }
+
+  .paragraph-4 {
+    margin: 20px;
   }
 
   /* Image Adjustments */
@@ -305,7 +309,6 @@
     text-align: center;
     padding: 20px;
     font-size: 15px;
-    margin-top: 20px;
     margin: -1%;
   }
 
