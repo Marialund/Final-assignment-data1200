@@ -466,6 +466,24 @@
   
 /*ADAM SIN CSS!! */
 
+.headerpicture{
+  display: flex;
+  flex: 100%;
+  background-size: cover;
+  margin: -1;
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.tittel1{
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  margin-left: -1400px;
+  color: #fcdd04;
+  margin-bottom: 800px;
+}
+
   body{
     background-color: white;
 }
